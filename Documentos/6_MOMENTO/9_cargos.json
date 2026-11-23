@@ -1,0 +1,402 @@
+[
+    {
+        "_id": 1,
+        "nome": "Assistente de Armazém",
+        "salario_minimo": {
+            "$numberDecimal": "4200.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "9000.00"
+        }
+    },
+    {
+        "_id": 2,
+        "nome": "Gerente de Contabilidade",
+        "salario_minimo": {
+            "$numberDecimal": "8200.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "16000.00"
+        }
+    },
+    {
+        "_id": 3,
+        "nome": "Assistente Administrativo",
+        "salario_minimo": {
+            "$numberDecimal": "3000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "6000.00"
+        }
+    },
+    {
+        "_id": 4,
+        "nome": "CEO",
+        "salario_minimo": {
+            "$numberDecimal": "20000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "40000.00"
+        }
+    },
+    {
+        "_id": 5,
+        "nome": "Diretor de Operações",
+        "salario_minimo": {
+            "$numberDecimal": "15000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "30000.00"
+        }
+    },
+    {
+        "_id": 6,
+        "nome": "Contador",
+        "salario_minimo": {
+            "$numberDecimal": "4200.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "9000.00"
+        }
+    },
+    {
+        "_id": 7,
+        "nome": "CFO",
+        "salario_minimo": {
+            "$numberDecimal": "12000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "24000.00"
+        }
+    },
+    {
+        "_id": 8,
+        "nome": "Assistente de Recursos Humanos",
+        "salario_minimo": {
+            "$numberDecimal": "4000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "9000.00"
+        }
+    },
+    {
+        "_id": 9,
+        "nome": "Desenvolvedor Web",
+        "salario_minimo": {
+            "$numberDecimal": "4000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "10000.00"
+        }
+    },
+    {
+        "_id": 10,
+        "nome": "CMO",
+        "salario_minimo": {
+            "$numberDecimal": "9000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "18000.00"
+        }
+    },
+    {
+        "_id": 11,
+        "nome": "Representante de Vendas LATAM",
+        "salario_minimo": {
+            "$numberDecimal": "4000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "9000.00"
+        }
+    },
+    {
+        "_id": 12,
+        "nome": "Relações Públicas",
+        "salario_minimo": {
+            "$numberDecimal": "4500.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "10500.00"
+        }
+    },
+    {
+        "_id": 13,
+        "nome": "Assistente de Compras",
+        "salario_minimo": {
+            "$numberDecimal": "2500.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "5500.00"
+        }
+    },
+    {
+        "_id": 14,
+        "nome": "Gerente de Recursos Humanos",
+        "salario_minimo": {
+            "$numberDecimal": "8000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "15000.00"
+        }
+    },
+    {
+        "_id": 15,
+        "nome": "Gerente de Vendas",
+        "salario_minimo": {
+            "$numberDecimal": "10000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "20000.00"
+        }
+    },
+    {
+        "_id": 16,
+        "nome": "Representante de Vendas",
+        "salario_minimo": {
+            "$numberDecimal": "6000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "12000.00"
+        }
+    },
+    {
+        "_id": 17,
+        "nome": "Consultor de Vendas",
+        "salario_minimo": {
+            "$numberDecimal": "2500.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "5500.00"
+        }
+    },
+    {
+        "_id": 18,
+        "nome": "Estoquista",
+        "salario_minimo": {
+            "$numberDecimal": "2000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "5000.00"
+        }
+    },
+    {
+        "_id": 19,
+        "nome": "Gerente de Estoque",
+        "salario_minimo": {
+            "$numberDecimal": "5500.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "8500.00"
+        }
+    },
+    {
+        "_id": 20,
+        "nome": "Cientista de Dados",
+        "salario_minimo": {
+            "$numberDecimal": "14200.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "35000.00"
+        }
+    },
+    {
+        "_id": 21,
+        "nome": "Analista de Qualidade",
+        "salario_minimo": {
+            "$numberDecimal": "6200.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "12000.00"
+        }
+    },
+    {
+        "_id": 22,
+        "nome": "Analista Financeiro",
+        "salario_minimo": {
+            "$numberDecimal": "5000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "11000.00"
+        }
+    },
+    {
+        "_id": 23,
+        "nome": "Designer de Produto",
+        "salario_minimo": {
+            "$numberDecimal": "5000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "12000.00"
+        }
+    },
+    {
+        "_id": 24,
+        "nome": "Especialista de Segurança",
+        "salario_minimo": {
+            "$numberDecimal": "8000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "18000.00"
+        }
+    },
+    {
+        "_id": 25,
+        "nome": "Gerente de Operações",
+        "salario_minimo": {
+            "$numberDecimal": "9000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "19000.00"
+        }
+    },
+    {
+        "_id": 26,
+        "nome": "Senior Web Developer",
+        "salario_minimo": {
+            "$numberDecimal": "7000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "16000.00"
+        }
+    },
+    {
+        "_id": 27,
+        "nome": "Analista de Atendimento",
+        "salario_minimo": {
+            "$numberDecimal": "3500.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "8000.00"
+        }
+    },
+    {
+        "_id": 28,
+        "nome": "Especialista de Marketing Digital",
+        "salario_minimo": {
+            "$numberDecimal": "5000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "13000.00"
+        }
+    },
+    {
+        "_id": 29,
+        "nome": "Diretor",
+        "salario_minimo": {
+            "$numberDecimal": "12000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "20000.00"
+        }
+    },
+    {
+        "_id": 30,
+        "nome": "Professor Titular",
+        "salario_minimo": {
+            "$numberDecimal": "7000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "12000.00"
+        }
+    },
+    {
+        "_id": 31,
+        "nome": "Professor Assistente",
+        "salario_minimo": {
+            "$numberDecimal": "4500.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "7000.00"
+        }
+    },
+    {
+        "_id": 32,
+        "nome": "Mestre de Poções",
+        "salario_minimo": {
+            "$numberDecimal": "6000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "9500.00"
+        }
+    },
+    {
+        "_id": 33,
+        "nome": "Guardião",
+        "salario_minimo": {
+            "$numberDecimal": "3000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "5000.00"
+        }
+    },
+    {
+        "_id": 34,
+        "nome": "Bibliotecário Arcano",
+        "salario_minimo": {
+            "$numberDecimal": "3500.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "5500.00"
+        }
+    },
+    {
+        "_id": 35,
+        "nome": "Tratador de Criaturas",
+        "salario_minimo": {
+            "$numberDecimal": "3200.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "5200.00"
+        }
+    },
+    {
+        "_id": 36,
+        "nome": "Astrônomago",
+        "salario_minimo": {
+            "$numberDecimal": "5000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "8000.00"
+        }
+    },
+    {
+        "_id": 37,
+        "nome": "Herbólogo",
+        "salario_minimo": {
+            "$numberDecimal": "4000.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "6500.00"
+        }
+    },
+    {
+        "_id": 38,
+        "nome": "Oficial de Segurança Biológia",
+        "salario_minimo": {
+            "$numberDecimal": "6500.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "11000.00"
+        }
+    },
+    {
+        "_id": 39,
+        "nome": "Secretário Administrativo",
+        "salario_minimo": {
+            "$numberDecimal": "2800.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "4200.00"
+        }
+    },
+    {
+        "_id": 40,
+        "nome": "Aprendiz",
+        "salario_minimo": {
+            "$numberDecimal": "1800.00"
+        },
+        "salario_maximo": {
+            "$numberDecimal": "2800.00"
+        }
+    }
+]

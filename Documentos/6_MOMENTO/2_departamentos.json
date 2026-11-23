@@ -1,0 +1,182 @@
+[
+    {
+        "_id": 1,
+        "nome": "Administração Executiva",
+        "educacional": false,
+        "escritorio_id": 1700
+    },
+    {
+        "_id": 2,
+        "nome": "Marketing",
+        "educacional": false,
+        "escritorio_id": 1800
+    },
+    {
+        "_id": 3,
+        "nome": "Recursos Humanos",
+        "educacional": false,
+        "escritorio_id": 1700
+    },
+    {
+        "_id": 4,
+        "nome": "Recursos Humanos",
+        "educacional": false,
+        "escritorio_id": 2400
+    },
+    {
+        "_id": 5,
+        "nome": "Logística",
+        "educacional": false,
+        "escritorio_id": 1500
+    },
+    {
+        "_id": 6,
+        "nome": "Tecnologia da Informação",
+        "educacional": false,
+        "escritorio_id": 1400
+    },
+    {
+        "_id": 7,
+        "nome": "Relações Públicas",
+        "educacional": false,
+        "escritorio_id": 2700
+    },
+    {
+        "_id": 8,
+        "nome": "Vendas",
+        "educacional": false,
+        "escritorio_id": 2500
+    },
+    {
+        "_id": 9,
+        "nome": "Executivo",
+        "educacional": false,
+        "escritorio_id": 1700
+    },
+    {
+        "_id": 10,
+        "nome": "Finanças",
+        "educacional": false,
+        "escritorio_id": 1700
+    },
+    {
+        "_id": 11,
+        "nome": "Contabilidade",
+        "educacional": false,
+        "escritorio_id": 1700
+    },
+    {
+        "_id": 12,
+        "nome": "Biotecnologia",
+        "educacional": false,
+        "escritorio_id": 3900
+    },
+    {
+        "_id": 13,
+        "nome": "Tecnologias Avançadas",
+        "educacional": false,
+        "escritorio_id": 1900
+    },
+    {
+        "_id": 14,
+        "nome": "Dados e Inteligência",
+        "educacional": false,
+        "escritorio_id": 1400
+    },
+    {
+        "_id": 15,
+        "nome": "Experiência do Cliente",
+        "educacional": false,
+        "escritorio_id": 1800
+    },
+    {
+        "_id": 16,
+        "nome": "Operações LATAM",
+        "educacional": false,
+        "escritorio_id": 2800
+    },
+    {
+        "_id": 17,
+        "nome": "Segurança da Informação",
+        "educacional": false,
+        "escritorio_id": 1500
+    },
+    {
+        "_id": 18,
+        "nome": "Pesquisa e Desenvolvimento",
+        "educacional": false,
+        "escritorio_id": 2400
+    },
+    {
+        "_id": 19,
+        "nome": "Comércio Digital",
+        "educacional": false,
+        "escritorio_id": 2900
+    },
+    {
+        "_id": 20,
+        "nome": "Operações APAC",
+        "educacional": false,
+        "escritorio_id": 3000
+    },
+    {
+        "_id": 21,
+        "nome": "Criação de Conteúdo",
+        "educacional": false,
+        "escritorio_id": 2600
+    },
+    {
+        "_id": 22,
+        "nome": "Operações África",
+        "educacional": false,
+        "escritorio_id": 3100
+    },
+    {
+        "_id": 23,
+        "nome": "Poções",
+        "educacional": true,
+        "escritorio_id": 1300
+    },
+    {
+        "_id": 24,
+        "nome": "Transfiguração",
+        "educacional": true,
+        "escritorio_id": 5100
+    },
+    {
+        "_id": 25,
+        "nome": "Projeções Astrais",
+        "educacional": true,
+        "escritorio_id": 4500
+    },
+    {
+        "_id": 26,
+        "nome": "Criaturas Mágicas",
+        "educacional": true,
+        "escritorio_id": 3200
+    },
+    {
+        "_id": 27,
+        "nome": "Biblioteca Arcana",
+        "educacional": true,
+        "escritorio_id": 5000
+    },
+    {
+        "_id": 28,
+        "nome": "Administração Educacional",
+        "educacional": true,
+        "escritorio_id": 3000
+    },
+    {
+        "_id": 29,
+        "nome": "Astronomia",
+        "educacional": true,
+        "escritorio_id": 2800
+    },
+    {
+        "_id": 30,
+        "nome": "Herbologia",
+        "educacional": true,
+        "escritorio_id": 3800
+    }
+]

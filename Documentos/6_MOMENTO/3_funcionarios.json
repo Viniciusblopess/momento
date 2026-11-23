@@ -1,0 +1,3138 @@
+[
+    {
+        "_id": 100,
+        "primeiro_nome": "Madeleine",
+        "sobrenome": "Prior",
+        "email": "madeleine.prior@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "1987-03-23T00:00:00.000Z"
+        },
+        "cargo_id": 4,
+        "salario": {
+            "$numberDecimal": "22343.22"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": null,
+        "departamento_id": 9,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 1,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Prior",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 2,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Prior",
+                "relacionamento": "Cônjuge"
+            }
+        ]
+    },
+    {
+        "_id": 101,
+        "primeiro_nome": "Neena",
+        "sobrenome": "Kochhar",
+        "email": "neena.kochhar@momento.org",
+        "telefone": "+1-555-201-1001",
+        "data_contratacao": {
+            "$date": "1987-08-17T00:00:00.000Z"
+        },
+        "cargo_id": 5,
+        "salario": {
+            "$numberDecimal": "18749.91"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 100,
+        "departamento_id": 9,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 3,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Kochhar",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 4,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Kochhar",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 102,
+        "primeiro_nome": "Lex",
+        "sobrenome": "T.Challa",
+        "email": "lex.tchalla@momento.org",
+        "telefone": "+1-555-202-1002",
+        "data_contratacao": {
+            "$date": "1988-02-08T00:00:00.000Z"
+        },
+        "cargo_id": 5,
+        "salario": {
+            "$numberDecimal": "25976.13"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 100,
+        "departamento_id": 9,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 5,
+                "primeiro_nome": "Phomelo",
+                "sobrenome": "T.Challa",
+                "relacionamento": "Cônjuge"
+            },
+            {
+                "_id": 6,
+                "primeiro_nome": "Ojira",
+                "sobrenome": "T.Challa",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 103,
+        "primeiro_nome": "Alexander",
+        "sobrenome": "Hunold",
+        "email": "alexander.hunold@momento.org",
+        "telefone": "+1-555-203-1003",
+        "data_contratacao": {
+            "$date": "1988-10-27T00:00:00.000Z"
+        },
+        "cargo_id": 9,
+        "salario": {
+            "$numberDecimal": "8371.81"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 102,
+        "departamento_id": 6,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 7,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Hunold",
+                "relacionamento": "Pai/Mãe"
+            },
+            {
+                "_id": 8,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Hunold",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 104,
+        "primeiro_nome": "Bruce",
+        "sobrenome": "Ernst",
+        "email": "bruce.ernst@momento.org",
+        "telefone": "+1-555-204-1004",
+        "data_contratacao": {
+            "$date": "1989-02-22T00:00:00.000Z"
+        },
+        "cargo_id": 9,
+        "salario": {
+            "$numberDecimal": "6000.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 100,
+        "departamento_id": 6,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 9,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Ernst",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 10,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Ernst",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 105,
+        "primeiro_nome": "David",
+        "sobrenome": "Austin",
+        "email": "david.austin@momento.org",
+        "telefone": "+1-555-205-1005",
+        "data_contratacao": {
+            "$date": "1989-08-26T00:00:00.000Z"
+        },
+        "cargo_id": 9,
+        "salario": {
+            "$numberDecimal": "4684.06"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 101,
+        "departamento_id": 6,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 11,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Austin",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 12,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Austin",
+                "relacionamento": "Cônjuge"
+            }
+        ]
+    },
+    {
+        "_id": 106,
+        "primeiro_nome": "Valli",
+        "sobrenome": "Stark",
+        "email": "valli.stark@momento.org",
+        "telefone": "+1-555-206-1006",
+        "data_contratacao": {
+            "$date": "1990-05-07T00:00:00.000Z"
+        },
+        "cargo_id": 9,
+        "salario": {
+            "$numberDecimal": "7581.51"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 104,
+        "departamento_id": 6,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 13,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Stark",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 14,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Stark",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 107,
+        "primeiro_nome": "Diana",
+        "sobrenome": "Lorentz",
+        "email": "diana.lorentz@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "1990-10-08T00:00:00.000Z"
+        },
+        "cargo_id": 9,
+        "salario": {
+            "$numberDecimal": "8231.31"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 105,
+        "departamento_id": 6,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 15,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Lorentz",
+                "relacionamento": "Cônjuge"
+            },
+            {
+                "_id": 16,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Lorentz",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 108,
+        "primeiro_nome": "Nancy",
+        "sobrenome": "Constantine",
+        "email": "nancy.constantine@momento.org",
+        "telefone": "+1-555-208-1008",
+        "data_contratacao": {
+            "$date": "1991-06-02T00:00:00.000Z"
+        },
+        "cargo_id": 26,
+        "salario": {
+            "$numberDecimal": "10799.82"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 107,
+        "departamento_id": 13,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 17,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Constantine",
+                "relacionamento": "Pai/Mãe"
+            },
+            {
+                "_id": 18,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Constantine",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 109,
+        "primeiro_nome": "Daniel",
+        "sobrenome": "Faviet",
+        "email": "daniel.faviet@momento.org",
+        "telefone": "+1-555-209-1009",
+        "data_contratacao": {
+            "$date": "1991-12-18T00:00:00.000Z"
+        },
+        "cargo_id": 6,
+        "salario": {
+            "$numberDecimal": "5601.86"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 100,
+        "departamento_id": 10,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 19,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Faviet",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 20,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Faviet",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 110,
+        "primeiro_nome": "John",
+        "sobrenome": "Chen",
+        "email": "john.chen@momento.org",
+        "telefone": "+1-555-210-1010",
+        "data_contratacao": {
+            "$date": "1992-05-04T00:00:00.000Z"
+        },
+        "cargo_id": 6,
+        "salario": {
+            "$numberDecimal": "7491.63"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 105,
+        "departamento_id": 10,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 21,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Chen",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 22,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Chen",
+                "relacionamento": "Cônjuge"
+            }
+        ]
+    },
+    {
+        "_id": 111,
+        "primeiro_nome": "Ismael",
+        "sobrenome": "Sciarra",
+        "email": "ismael.sciarra@momento.org",
+        "telefone": "+1-555-211-1011",
+        "data_contratacao": {
+            "$date": "1992-11-28T00:00:00.000Z"
+        },
+        "cargo_id": 6,
+        "salario": {
+            "$numberDecimal": "5049.66"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 105,
+        "departamento_id": 10,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 23,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Sciarra",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 24,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Sciarra",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 112,
+        "primeiro_nome": "Jose Manuel",
+        "sobrenome": "Urman",
+        "email": "jose.manuel.urman@momento.org",
+        "telefone": "+1-555-212-1012",
+        "data_contratacao": {
+            "$date": "1993-05-18T00:00:00.000Z"
+        },
+        "cargo_id": 6,
+        "salario": {
+            "$numberDecimal": "4767.36"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 101,
+        "departamento_id": 10,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 25,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Urman",
+                "relacionamento": "Cônjuge"
+            },
+            {
+                "_id": 26,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Urman",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 113,
+        "primeiro_nome": "Luis",
+        "sobrenome": "Popp",
+        "email": "luis.popp@momento.org",
+        "telefone": "+1-555-213-1013",
+        "data_contratacao": {
+            "$date": "1993-12-29T00:00:00.000Z"
+        },
+        "cargo_id": 6,
+        "salario": {
+            "$numberDecimal": "8163.72"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 109,
+        "departamento_id": 10,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 27,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Popp",
+                "relacionamento": "Pai/Mãe"
+            },
+            {
+                "_id": 28,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Popp",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 114,
+        "primeiro_nome": "Den",
+        "sobrenome": "Raphaely",
+        "email": "den.raphaely@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "1994-06-28T00:00:00.000Z"
+        },
+        "cargo_id": 14,
+        "salario": {
+            "$numberDecimal": "13557.76"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 100,
+        "departamento_id": 3,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 29,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Raphaely",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 30,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Raphaely",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 115,
+        "primeiro_nome": "Norman",
+        "sobrenome": "Osborn",
+        "email": "norman.osborn@momento.org",
+        "telefone": "+1-555-215-1015",
+        "data_contratacao": {
+            "$date": "1995-02-01T00:00:00.000Z"
+        },
+        "cargo_id": 13,
+        "salario": {
+            "$numberDecimal": "4097.82"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 114,
+        "departamento_id": 3,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 31,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Osborn",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 32,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Osborn",
+                "relacionamento": "Cônjuge"
+            }
+        ]
+    },
+    {
+        "_id": 116,
+        "primeiro_nome": "Shelli",
+        "sobrenome": "Baida",
+        "email": "shelli.baida@momento.org",
+        "telefone": "+1-555-216-1016",
+        "data_contratacao": {
+            "$date": "1995-08-03T00:00:00.000Z"
+        },
+        "cargo_id": 13,
+        "salario": {
+            "$numberDecimal": "2862.76"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 109,
+        "departamento_id": 3,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 33,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Baida",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 34,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Baida",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 117,
+        "primeiro_nome": "Sigal",
+        "sobrenome": "Tobias",
+        "email": "sigal.tobias@momento.org",
+        "telefone": "+1-555-217-1017",
+        "data_contratacao": {
+            "$date": "1996-03-15T00:00:00.000Z"
+        },
+        "cargo_id": 13,
+        "salario": {
+            "$numberDecimal": "4320.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 111,
+        "departamento_id": 3,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 35,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Tobias",
+                "relacionamento": "Cônjuge"
+            },
+            {
+                "_id": 36,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Tobias",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 118,
+        "primeiro_nome": "Guy",
+        "sobrenome": "Himuro",
+        "email": "guy.himuro@momento.org",
+        "telefone": "+1-555-218-1018",
+        "data_contratacao": {
+            "$date": "1996-09-17T00:00:00.000Z"
+        },
+        "cargo_id": 13,
+        "salario": {
+            "$numberDecimal": "3169.18"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 102,
+        "departamento_id": 3,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 37,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Himuro",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 119,
+        "primeiro_nome": "Karen",
+        "sobrenome": "Colmenares",
+        "email": "karen.colmenares@momento.org",
+        "telefone": "+1-555-219-1019",
+        "data_contratacao": {
+            "$date": "1997-01-20T00:00:00.000Z"
+        },
+        "cargo_id": 13,
+        "salario": {
+            "$numberDecimal": "4435.41"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 109,
+        "departamento_id": 3,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 38,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Colmenares",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 120,
+        "primeiro_nome": "Matthew",
+        "sobrenome": "Weiss",
+        "email": "matthew.weiss@momento.org",
+        "telefone": "+1-555-220-1020",
+        "data_contratacao": {
+            "$date": "1997-08-06T00:00:00.000Z"
+        },
+        "cargo_id": 19,
+        "salario": {
+            "$numberDecimal": "7959.36"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 100,
+        "departamento_id": 5,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 39,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Weiss",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 121,
+        "primeiro_nome": "Adam",
+        "sobrenome": "Fripp",
+        "email": "adam.fripp@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "1998-02-17T00:00:00.000Z"
+        },
+        "cargo_id": 19,
+        "salario": {
+            "$numberDecimal": "6676.34"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 114,
+        "departamento_id": 5,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 40,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Fripp",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 122,
+        "primeiro_nome": "Payam",
+        "sobrenome": "Kaufling",
+        "email": "payam.kaufling@momento.org",
+        "telefone": "+1-555-222-1022",
+        "data_contratacao": {
+            "$date": "1998-11-06T00:00:00.000Z"
+        },
+        "cargo_id": 19,
+        "salario": {
+            "$numberDecimal": "7902.10"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 105,
+        "departamento_id": 5,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 41,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Kaufling",
+                "relacionamento": "Cônjuge"
+            },
+            {
+                "_id": 42,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Kaufling",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 123,
+        "primeiro_nome": "Shanta",
+        "sobrenome": "Vollman",
+        "email": "shanta.vollman@momento.org",
+        "telefone": "+1-555-223-1023",
+        "data_contratacao": {
+            "$date": "1999-04-14T00:00:00.000Z"
+        },
+        "cargo_id": 19,
+        "salario": {
+            "$numberDecimal": "6609.23"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 121,
+        "departamento_id": 5,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 43,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Vollman",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 124,
+        "primeiro_nome": "John",
+        "sobrenome": "Russell",
+        "email": "john.russell@momento.org",
+        "telefone": "+1-555-224-1024",
+        "data_contratacao": {
+            "$date": "1999-10-11T00:00:00.000Z"
+        },
+        "cargo_id": 15,
+        "salario": {
+            "$numberDecimal": "16957.66"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 100,
+        "departamento_id": 8,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 44,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Russell",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 125,
+        "primeiro_nome": "Karen",
+        "sobrenome": "Partners",
+        "email": "karen.partners@momento.org",
+        "telefone": "+1-555-225-1025",
+        "data_contratacao": {
+            "$date": "2000-06-13T00:00:00.000Z"
+        },
+        "cargo_id": 15,
+        "salario": {
+            "$numberDecimal": "16435.94"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 119,
+        "departamento_id": 8,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 45,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Partners",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 126,
+        "primeiro_nome": "Jonathon",
+        "sobrenome": "Taylor",
+        "email": "jonathon.taylor@momento.org",
+        "telefone": "+1-555-226-1026",
+        "data_contratacao": {
+            "$date": "2000-12-17T00:00:00.000Z"
+        },
+        "cargo_id": 16,
+        "salario": {
+            "$numberDecimal": "7125.49"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 123,
+        "departamento_id": 8,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 46,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Taylor",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 127,
+        "primeiro_nome": "Jack",
+        "sobrenome": "Livingston",
+        "email": "jack.livingston@momento.org",
+        "telefone": "+1-555-227-1027",
+        "data_contratacao": {
+            "$date": "2001-05-09T00:00:00.000Z"
+        },
+        "cargo_id": 16,
+        "salario": {
+            "$numberDecimal": "7081.39"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 112,
+        "departamento_id": 8,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 47,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Livingston",
+                "relacionamento": "Cônjuge"
+            }
+        ]
+    },
+    {
+        "_id": 128,
+        "primeiro_nome": "Kimberly",
+        "sobrenome": "Grant",
+        "email": "kimberly.grant@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "2001-11-21T00:00:00.000Z"
+        },
+        "cargo_id": 16,
+        "salario": {
+            "$numberDecimal": "11790.28"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 120,
+        "departamento_id": 8,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 48,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Grant",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 129,
+        "primeiro_nome": "Jennifer",
+        "sobrenome": "Whalen",
+        "email": "jennifer.whalen@momento.org",
+        "telefone": "+1-555-229-1029",
+        "data_contratacao": {
+            "$date": "2002-07-26T00:00:00.000Z"
+        },
+        "cargo_id": 3,
+        "salario": {
+            "$numberDecimal": "4653.76"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 100,
+        "departamento_id": 1,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 49,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Whalen",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 130,
+        "primeiro_nome": "Elisabeth",
+        "sobrenome": "Braddock",
+        "email": "elisabeth.braddock@momento.org",
+        "telefone": "+1-555-230-1030",
+        "data_contratacao": {
+            "$date": "2003-02-03T00:00:00.000Z"
+        },
+        "cargo_id": 10,
+        "salario": {
+            "$numberDecimal": "11971.26"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 124,
+        "departamento_id": 2,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 50,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Braddock",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 131,
+        "primeiro_nome": "Pat",
+        "sobrenome": "Ferreira",
+        "email": "pat.ferreira@momento.org",
+        "telefone": "+1-555-231-1031",
+        "data_contratacao": {
+            "$date": "2003-05-27T00:00:00.000Z"
+        },
+        "cargo_id": 11,
+        "salario": {
+            "$numberDecimal": "5226.53"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 101,
+        "departamento_id": 2,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 51,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Ferreira",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 132,
+        "primeiro_nome": "Susan",
+        "sobrenome": "Mavris",
+        "email": "susan.mavris@momento.org",
+        "telefone": "+1-555-232-1032",
+        "data_contratacao": {
+            "$date": "2004-01-08T00:00:00.000Z"
+        },
+        "cargo_id": 8,
+        "salario": {
+            "$numberDecimal": "6035.47"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 104,
+        "departamento_id": 4,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 52,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Mavris",
+                "relacionamento": "Cônjuge"
+            }
+        ]
+    },
+    {
+        "_id": 133,
+        "primeiro_nome": "Hermann",
+        "sobrenome": "Baer",
+        "email": "hermann.baer@momento.org",
+        "telefone": "+1-555-233-1033",
+        "data_contratacao": {
+            "$date": "2004-07-06T00:00:00.000Z"
+        },
+        "cargo_id": 12,
+        "salario": {
+            "$numberDecimal": "9854.88"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 120,
+        "departamento_id": 7,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 53,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Baer",
+                "relacionamento": "Pai/Mãe"
+            },
+            {
+                "_id": 54,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Baer",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 134,
+        "primeiro_nome": "Shelley",
+        "sobrenome": "Higgins",
+        "email": "shelley.higgins@momento.org",
+        "telefone": "+1-555-234-1034",
+        "data_contratacao": {
+            "$date": "2005-01-15T00:00:00.000Z"
+        },
+        "cargo_id": 2,
+        "salario": {
+            "$numberDecimal": "13265.79"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 125,
+        "departamento_id": 11,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 55,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Higgins",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 135,
+        "primeiro_nome": "Susan",
+        "sobrenome": "Storm",
+        "email": "susan.storm@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "2005-09-20T00:00:00.000Z"
+        },
+        "cargo_id": 20,
+        "salario": {
+            "$numberDecimal": "23756.46"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 116,
+        "departamento_id": 12,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 56,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Storm",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 136,
+        "primeiro_nome": "Lucius",
+        "sobrenome": "Fox",
+        "email": "lucius.fox@momento.org",
+        "telefone": "+1-555-236-1036",
+        "data_contratacao": {
+            "$date": "2006-01-26T00:00:00.000Z"
+        },
+        "cargo_id": 7,
+        "salario": {
+            "$numberDecimal": "15035.54"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 135,
+        "departamento_id": 10,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 57,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Fox",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 137,
+        "primeiro_nome": "Sabrina",
+        "sobrenome": "Spellman",
+        "email": "sabrina.spellman@momento.org",
+        "telefone": "+1-555-237-1037",
+        "data_contratacao": {
+            "$date": "2006-09-27T00:00:00.000Z"
+        },
+        "cargo_id": 20,
+        "salario": {
+            "$numberDecimal": "19736.20"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 127,
+        "departamento_id": 13,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 58,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Spellman",
+                "relacionamento": "Cônjuge"
+            }
+        ]
+    },
+    {
+        "_id": 138,
+        "primeiro_nome": "Dick",
+        "sobrenome": "Grayson",
+        "email": "dick.grayson@momento.org",
+        "telefone": "+1-555-238-1038",
+        "data_contratacao": {
+            "$date": "2007-04-14T00:00:00.000Z"
+        },
+        "cargo_id": 21,
+        "salario": {
+            "$numberDecimal": "8546.70"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 114,
+        "departamento_id": 6,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 59,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Grayson",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 139,
+        "primeiro_nome": "Peter",
+        "sobrenome": "Parker",
+        "email": "peter.parker@momento.org",
+        "telefone": "+1-555-239-1039",
+        "data_contratacao": {
+            "$date": "2007-08-28T00:00:00.000Z"
+        },
+        "cargo_id": 9,
+        "salario": {
+            "$numberDecimal": "7054.30"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 105,
+        "departamento_id": 6,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 60,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Parker",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 140,
+        "primeiro_nome": "Shuri",
+        "sobrenome": "Udaku",
+        "email": "shuri.udaku@momento.org",
+        "telefone": "+1-555-240-1040",
+        "data_contratacao": {
+            "$date": "2008-02-26T00:00:00.000Z"
+        },
+        "cargo_id": 20,
+        "salario": {
+            "$numberDecimal": "32002.61"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 109,
+        "departamento_id": 13,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 61,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Udaku",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 141,
+        "primeiro_nome": "Hermione",
+        "sobrenome": "Granger",
+        "email": "hermione.granger@momento.org",
+        "telefone": "+1-555-241-1041",
+        "data_contratacao": {
+            "$date": "2008-11-19T00:00:00.000Z"
+        },
+        "cargo_id": 20,
+        "salario": {
+            "$numberDecimal": "17629.63"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 127,
+        "departamento_id": 13,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 62,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Granger",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 142,
+        "primeiro_nome": "Leia",
+        "sobrenome": "Organa",
+        "email": "leia.organa@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "2009-05-27T00:00:00.000Z"
+        },
+        "cargo_id": 12,
+        "salario": {
+            "$numberDecimal": "5012.11"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 124,
+        "departamento_id": 7,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 63,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Organa",
+                "relacionamento": "Cônjuge"
+            }
+        ]
+    },
+    {
+        "_id": 143,
+        "primeiro_nome": "Spock",
+        "sobrenome": "Sarek",
+        "email": "spock.sarek@momento.org",
+        "telefone": "+1-555-243-1043",
+        "data_contratacao": {
+            "$date": "2009-12-06T00:00:00.000Z"
+        },
+        "cargo_id": 20,
+        "salario": {
+            "$numberDecimal": "34770.49"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 133,
+        "departamento_id": 12,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 144,
+        "primeiro_nome": "Samus",
+        "sobrenome": "Aran",
+        "email": "samus.aran@momento.org",
+        "telefone": "+1-555-244-1044",
+        "data_contratacao": {
+            "$date": "2010-05-04T00:00:00.000Z"
+        },
+        "cargo_id": 21,
+        "salario": {
+            "$numberDecimal": "11690.93"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 100,
+        "departamento_id": 6,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 64,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Aran",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 145,
+        "primeiro_nome": "Miles",
+        "sobrenome": "Morales",
+        "email": "miles.morales@momento.org",
+        "telefone": "+1-555-245-1045",
+        "data_contratacao": {
+            "$date": "2011-01-07T00:00:00.000Z"
+        },
+        "cargo_id": 20,
+        "salario": {
+            "$numberDecimal": "29124.80"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 143,
+        "departamento_id": 14,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 65,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Morales",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 146,
+        "primeiro_nome": "Kamala",
+        "sobrenome": "Khan",
+        "email": "kamala.khan@momento.org",
+        "telefone": "+1-555-246-1046",
+        "data_contratacao": {
+            "$date": "2011-06-30T00:00:00.000Z"
+        },
+        "cargo_id": 27,
+        "salario": {
+            "$numberDecimal": "6803.69"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 141,
+        "departamento_id": 15,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 147,
+        "primeiro_nome": "Carol",
+        "sobrenome": "Danvers",
+        "email": "carol.danvers@momento.org",
+        "telefone": "+1-555-247-1047",
+        "data_contratacao": {
+            "$date": "2011-12-15T00:00:00.000Z"
+        },
+        "cargo_id": 25,
+        "salario": {
+            "$numberDecimal": "10232.06"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 127,
+        "departamento_id": 16,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 148,
+        "primeiro_nome": "Natasha",
+        "sobrenome": "Romanoff",
+        "email": "natasha.romanoff@momento.org",
+        "telefone": "+1-555-248-1048",
+        "data_contratacao": {
+            "$date": "2012-06-02T00:00:00.000Z"
+        },
+        "cargo_id": 24,
+        "salario": {
+            "$numberDecimal": "12551.12"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 146,
+        "departamento_id": 17,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 66,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Romanoff",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 149,
+        "primeiro_nome": "Clint",
+        "sobrenome": "Barton",
+        "email": "clint.barton@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "2012-12-25T00:00:00.000Z"
+        },
+        "cargo_id": 23,
+        "salario": {
+            "$numberDecimal": "11661.65"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 148,
+        "departamento_id": 18,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 150,
+        "primeiro_nome": "Barbara",
+        "sobrenome": "Gordon",
+        "email": "barbara.gordon@momento.org",
+        "telefone": "+1-555-250-1050",
+        "data_contratacao": {
+            "$date": "2013-06-25T00:00:00.000Z"
+        },
+        "cargo_id": 28,
+        "salario": {
+            "$numberDecimal": "9059.15"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 106,
+        "departamento_id": 19,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 151,
+        "primeiro_nome": "Kara",
+        "sobrenome": "Danvers",
+        "email": "kara.danvers@momento.org",
+        "telefone": "+1-555-251-1051",
+        "data_contratacao": {
+            "$date": "2014-03-03T00:00:00.000Z"
+        },
+        "cargo_id": 25,
+        "salario": {
+            "$numberDecimal": "12044.91"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 140,
+        "departamento_id": 20,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 67,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Danvers",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 152,
+        "primeiro_nome": "Barry",
+        "sobrenome": "Allen",
+        "email": "barry.allen@momento.org",
+        "telefone": "+1-555-252-1052",
+        "data_contratacao": {
+            "$date": "2014-08-27T00:00:00.000Z"
+        },
+        "cargo_id": 23,
+        "salario": {
+            "$numberDecimal": "9230.10"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 109,
+        "departamento_id": 21,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 153,
+        "primeiro_nome": "Arthur",
+        "sobrenome": "Curry",
+        "email": "arthur.curry@momento.org",
+        "telefone": "+1-555-253-1053",
+        "data_contratacao": {
+            "$date": "2015-02-19T00:00:00.000Z"
+        },
+        "cargo_id": 18,
+        "salario": {
+            "$numberDecimal": "4208.78"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 134,
+        "departamento_id": 22,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 154,
+        "primeiro_nome": "Victor",
+        "sobrenome": "Stone",
+        "email": "victor.stone@momento.org",
+        "telefone": "+1-555-254-1054",
+        "data_contratacao": {
+            "$date": "2015-09-20T00:00:00.000Z"
+        },
+        "cargo_id": 20,
+        "salario": {
+            "$numberDecimal": "33179.12"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 138,
+        "departamento_id": 14,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 68,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Stone",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 155,
+        "primeiro_nome": "Logan",
+        "sobrenome": "Howlett",
+        "email": "logan.howlett@momento.org",
+        "telefone": "+1-555-255-1055",
+        "data_contratacao": {
+            "$date": "2016-03-05T00:00:00.000Z"
+        },
+        "cargo_id": 27,
+        "salario": {
+            "$numberDecimal": "5702.14"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 107,
+        "departamento_id": 15,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 69,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Howlett",
+                "relacionamento": "Cônjuge"
+            }
+        ]
+    },
+    {
+        "_id": 156,
+        "primeiro_nome": "Rogue",
+        "sobrenome": "LeBeau",
+        "email": "rogue.lebeau@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "2016-09-19T00:00:00.000Z"
+        },
+        "cargo_id": 25,
+        "salario": {
+            "$numberDecimal": "17673.60"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 153,
+        "departamento_id": 16,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 157,
+        "primeiro_nome": "Ororo",
+        "sobrenome": "Munroe",
+        "email": "ororo.munroe@momento.org",
+        "telefone": "+1-555-257-1057",
+        "data_contratacao": {
+            "$date": "2017-03-24T00:00:00.000Z"
+        },
+        "cargo_id": 24,
+        "salario": {
+            "$numberDecimal": "10472.69"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 115,
+        "departamento_id": 17,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 70,
+                "primeiro_nome": "Morgan",
+                "sobrenome": "Munroe",
+                "relacionamento": "Cônjuge"
+            }
+        ]
+    },
+    {
+        "_id": 158,
+        "primeiro_nome": "Jean",
+        "sobrenome": "Grey",
+        "email": "jean.grey@momento.org",
+        "telefone": "+1-555-258-1058",
+        "data_contratacao": {
+            "$date": "2017-11-05T00:00:00.000Z"
+        },
+        "cargo_id": 23,
+        "salario": {
+            "$numberDecimal": "11494.56"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 105,
+        "departamento_id": 18,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 159,
+        "primeiro_nome": "Scott",
+        "sobrenome": "Summers",
+        "email": "scott.summers@momento.org",
+        "telefone": "+1-555-259-1059",
+        "data_contratacao": {
+            "$date": "2018-05-07T00:00:00.000Z"
+        },
+        "cargo_id": 28,
+        "salario": {
+            "$numberDecimal": "11433.38"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 148,
+        "departamento_id": 19,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 160,
+        "primeiro_nome": "Cyborg",
+        "sobrenome": "Stone",
+        "email": "cyborg.stone@momento.org",
+        "telefone": "+1-555-260-1060",
+        "data_contratacao": {
+            "$date": "2018-11-22T00:00:00.000Z"
+        },
+        "cargo_id": 25,
+        "salario": {
+            "$numberDecimal": "16578.59"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 108,
+        "departamento_id": 20,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 71,
+                "primeiro_nome": "Alex",
+                "sobrenome": "Stone",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 161,
+        "primeiro_nome": "Nia",
+        "sobrenome": "Nal",
+        "email": "nia.nal@momento.org",
+        "telefone": "+1-555-261-1061",
+        "data_contratacao": {
+            "$date": "2019-06-19T00:00:00.000Z"
+        },
+        "cargo_id": 23,
+        "salario": {
+            "$numberDecimal": "8334.39"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 135,
+        "departamento_id": 21,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 162,
+        "primeiro_nome": "Mina",
+        "sobrenome": "Harker",
+        "email": "mina.harker@momento.org",
+        "telefone": "+1-555-262-1062",
+        "data_contratacao": {
+            "$date": "2019-10-27T00:00:00.000Z"
+        },
+        "cargo_id": 18,
+        "salario": {
+            "$numberDecimal": "2865.65"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 155,
+        "departamento_id": 22,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 163,
+        "primeiro_nome": "Ravi",
+        "sobrenome": "Shah",
+        "email": "ravi.shah@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "2020-07-02T00:00:00.000Z"
+        },
+        "cargo_id": 20,
+        "salario": {
+            "$numberDecimal": "23024.33"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 113,
+        "departamento_id": 14,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 72,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Shah",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 164,
+        "primeiro_nome": "Elena",
+        "sobrenome": "Rossi",
+        "email": "elena.rossi@momento.org",
+        "telefone": "+1-555-264-1064",
+        "data_contratacao": {
+            "$date": "2021-01-03T00:00:00.000Z"
+        },
+        "cargo_id": 27,
+        "salario": {
+            "$numberDecimal": "6822.11"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 125,
+        "departamento_id": 15,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 165,
+        "primeiro_nome": "Mateus",
+        "sobrenome": "Silva",
+        "email": "mateus.silva@momento.org",
+        "telefone": "+1-555-265-1065",
+        "data_contratacao": {
+            "$date": "2021-06-15T00:00:00.000Z"
+        },
+        "cargo_id": 25,
+        "salario": {
+            "$numberDecimal": "13020.23"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 147,
+        "departamento_id": 16,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 166,
+        "primeiro_nome": "Ana",
+        "sobrenome": "Costa",
+        "email": "ana.costa@momento.org",
+        "telefone": "+1-555-266-1066",
+        "data_contratacao": {
+            "$date": "2022-01-11T00:00:00.000Z"
+        },
+        "cargo_id": 24,
+        "salario": {
+            "$numberDecimal": "16876.26"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 157,
+        "departamento_id": 17,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 73,
+                "primeiro_nome": "Taylor",
+                "sobrenome": "Costa",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 74,
+                "primeiro_nome": "Jordan",
+                "sobrenome": "Costa",
+                "relacionamento": "Pai/Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 167,
+        "primeiro_nome": "Camila",
+        "sobrenome": "Oliveira",
+        "email": "camila.oliveira@momento.org",
+        "telefone": "+1-555-267-1067",
+        "data_contratacao": {
+            "$date": "2022-06-12T00:00:00.000Z"
+        },
+        "cargo_id": 23,
+        "salario": {
+            "$numberDecimal": "6810.97"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 108,
+        "departamento_id": 18,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 168,
+        "primeiro_nome": "Rafael",
+        "sobrenome": "Santos",
+        "email": "rafael.santos@momento.org",
+        "telefone": "+1-555-268-1068",
+        "data_contratacao": {
+            "$date": "2023-01-19T00:00:00.000Z"
+        },
+        "cargo_id": 28,
+        "salario": {
+            "$numberDecimal": "5311.96"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 129,
+        "departamento_id": 19,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 169,
+        "primeiro_nome": "Beatriz",
+        "sobrenome": "Lima",
+        "email": "beatriz.lima@momento.org",
+        "telefone": "+1-555-269-1069",
+        "data_contratacao": {
+            "$date": "2023-09-01T00:00:00.000Z"
+        },
+        "cargo_id": 25,
+        "salario": {
+            "$numberDecimal": "11286.11"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 109,
+        "departamento_id": 20,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 75,
+                "primeiro_nome": "Sam",
+                "sobrenome": "Lima",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 170,
+        "primeiro_nome": "Noah",
+        "sobrenome": "Kim",
+        "email": "noah.kim@momento.org",
+        "telefone": null,
+        "data_contratacao": {
+            "$date": "1987-04-11T00:00:00.000Z"
+        },
+        "cargo_id": 23,
+        "salario": {
+            "$numberDecimal": "9378.39"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 129,
+        "departamento_id": 21,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 171,
+        "primeiro_nome": "Yuki",
+        "sobrenome": "Tanaka",
+        "email": "yuki.tanaka@momento.org",
+        "telefone": "+1-555-271-1071",
+        "data_contratacao": {
+            "$date": "1987-07-31T00:00:00.000Z"
+        },
+        "cargo_id": 18,
+        "salario": {
+            "$numberDecimal": "4594.63"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 142,
+        "departamento_id": 22,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 172,
+        "primeiro_nome": "Helena",
+        "sobrenome": "Parker",
+        "email": "helena.parker@momento.edu",
+        "telefone": "+44-555-0101",
+        "data_contratacao": {
+            "$date": "1995-03-15T00:00:00.000Z"
+        },
+        "cargo_id": 29,
+        "salario": {
+            "$numberDecimal": "18000.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": null,
+        "departamento_id": 28,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 173,
+        "primeiro_nome": "Minerva",
+        "sobrenome": "McGivver",
+        "email": "minerva.mcgivver@momento.edu",
+        "telefone": "+44-555-0102",
+        "data_contratacao": {
+            "$date": "1998-07-22T00:00:00.000Z"
+        },
+        "cargo_id": 29,
+        "salario": {
+            "$numberDecimal": "15000.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 172,
+        "departamento_id": 23,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 505,
+                "primeiro_nome": "Mafalda",
+                "sobrenome": "McGivver",
+                "relacionamento": "Sobrinha"
+            },
+            {
+                "_id": 506,
+                "primeiro_nome": "Isabel",
+                "sobrenome": "McGivver",
+                "relacionamento": "Sobrinha"
+            }
+        ]
+    },
+    {
+        "_id": 174,
+        "primeiro_nome": "Severo",
+        "sobrenome": "Snape",
+        "email": "severo.snape@momento.edu",
+        "telefone": "+44-555-0103",
+        "data_contratacao": {
+            "$date": "1999-09-01T00:00:00.000Z"
+        },
+        "cargo_id": 32,
+        "salario": {
+            "$numberDecimal": "9500.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 172,
+        "departamento_id": 23,
+        "status_funcionario_id": 2,
+        "dependentes": []
+    },
+    {
+        "_id": 175,
+        "primeiro_nome": "Rúbeo",
+        "sobrenome": "Hagride",
+        "email": "rubeo.Hagride@momento.edu",
+        "telefone": "+44-555-0104",
+        "data_contratacao": {
+            "$date": "1993-11-10T00:00:00.000Z"
+        },
+        "cargo_id": 35,
+        "salario": {
+            "$numberDecimal": "4200.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 172,
+        "departamento_id": 26,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 501,
+                "primeiro_nome": "Fang",
+                "sobrenome": "Hagride",
+                "relacionamento": "Animal de estimação"
+            },
+            {
+                "_id": 502,
+                "primeiro_nome": "Norberto",
+                "sobrenome": "Hagride",
+                "relacionamento": "Animal de estimação"
+            },
+            {
+                "_id": 503,
+                "primeiro_nome": "Aragogue",
+                "sobrenome": "Hagride",
+                "relacionamento": "Animal de estimação"
+            },
+            {
+                "_id": 504,
+                "primeiro_nome": "Bicuço",
+                "sobrenome": "Hagride",
+                "relacionamento": "Animal de estimação"
+            }
+        ]
+    },
+    {
+        "_id": 176,
+        "primeiro_nome": "Filius",
+        "sobrenome": "Flitwick",
+        "email": "filius.flitwick@momento.edu",
+        "telefone": "+44-555-0105",
+        "data_contratacao": {
+            "$date": "1996-05-18T00:00:00.000Z"
+        },
+        "cargo_id": 30,
+        "salario": {
+            "$numberDecimal": "8500.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 172,
+        "departamento_id": 24,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 177,
+        "primeiro_nome": "Pomona",
+        "sobrenome": "Sprautii",
+        "email": "pomona.sprautii@momento.edu",
+        "telefone": "+44-555-0106",
+        "data_contratacao": {
+            "$date": "1997-04-03T00:00:00.000Z"
+        },
+        "cargo_id": 37,
+        "salario": {
+            "$numberDecimal": "6200.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 172,
+        "departamento_id": 30,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 178,
+        "primeiro_nome": "Sybill",
+        "sobrenome": "Trelawney",
+        "email": "sybill.trelawney@momento.edu",
+        "telefone": "+44-555-0107",
+        "data_contratacao": {
+            "$date": "2001-01-20T00:00:00.000Z"
+        },
+        "cargo_id": 31,
+        "salario": {
+            "$numberDecimal": "4800.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 172,
+        "departamento_id": 29,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 179,
+        "primeiro_nome": "Remo",
+        "sobrenome": "Lupin",
+        "email": "remo.lupin@momento.edu",
+        "telefone": "+44-555-0108",
+        "data_contratacao": {
+            "$date": "2003-08-15T00:00:00.000Z"
+        },
+        "cargo_id": 31,
+        "salario": {
+            "$numberDecimal": "5500.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 173,
+        "departamento_id": 25,
+        "status_funcionario_id": 3,
+        "dependentes": []
+    },
+    {
+        "_id": 180,
+        "primeiro_nome": "Ninfadora",
+        "sobrenome": "Tonks",
+        "email": "ninfadora.tonks@momento.edu",
+        "telefone": "+44-555-0109",
+        "data_contratacao": {
+            "$date": "2008-02-11T00:00:00.000Z"
+        },
+        "cargo_id": 38,
+        "salario": {
+            "$numberDecimal": "7200.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 173,
+        "departamento_id": 25,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 507,
+                "primeiro_nome": "Dora",
+                "sobrenome": "Tonks",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 508,
+                "primeiro_nome": "Remo",
+                "sobrenome": "Tonks Jr.",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 181,
+        "primeiro_nome": "Kingsley",
+        "sobrenome": "Tremerraios",
+        "email": "kingsley.tremerraios@momento.edu",
+        "telefone": "+44-555-0110",
+        "data_contratacao": {
+            "$date": "2006-10-30T00:00:00.000Z"
+        },
+        "cargo_id": 38,
+        "salario": {
+            "$numberDecimal": "10500.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 173,
+        "departamento_id": 25,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 182,
+        "primeiro_nome": "Horácio",
+        "sobrenome": "Slughorn",
+        "email": "horacio.slughorn@momento.edu",
+        "telefone": "+44-555-0111",
+        "data_contratacao": {
+            "$date": "2009-06-12T00:00:00.000Z"
+        },
+        "cargo_id": 32,
+        "salario": {
+            "$numberDecimal": "8800.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 174,
+        "departamento_id": 23,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 183,
+        "primeiro_nome": "Pomona",
+        "sobrenome": "Rios",
+        "email": "pomona.rios@momento.edu",
+        "telefone": "+44-555-0112",
+        "data_contratacao": {
+            "$date": "2010-03-25T00:00:00.000Z"
+        },
+        "cargo_id": 33,
+        "salario": {
+            "$numberDecimal": "3600.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 173,
+        "departamento_id": 26,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 184,
+        "primeiro_nome": "Argus",
+        "sobrenome": "Filch",
+        "email": "argus.filch@momento.edu",
+        "telefone": "+44-555-0113",
+        "data_contratacao": {
+            "$date": "1990-09-01T00:00:00.000Z"
+        },
+        "cargo_id": 33,
+        "salario": {
+            "$numberDecimal": "3100.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 172,
+        "departamento_id": 28,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 185,
+        "primeiro_nome": "Irma",
+        "sobrenome": "Pince",
+        "email": "irma.pince@momento.edu",
+        "telefone": "+44-555-0114",
+        "data_contratacao": {
+            "$date": "1994-02-14T00:00:00.000Z"
+        },
+        "cargo_id": 34,
+        "salario": {
+            "$numberDecimal": "3700.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 172,
+        "departamento_id": 27,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 186,
+        "primeiro_nome": "Poppy",
+        "sobrenome": "Pomfrey",
+        "email": "poppy.pomfrey@momento.edu",
+        "telefone": "+44-555-0115",
+        "data_contratacao": {
+            "$date": "1992-07-07T00:00:00.000Z"
+        },
+        "cargo_id": 31,
+        "salario": {
+            "$numberDecimal": "5200.00"
+        },
+        "moeda_salario": "GBP",
+        "gerente_id": 172,
+        "departamento_id": 28,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 187,
+        "primeiro_nome": "Fleur",
+        "sobrenome": "Dascores",
+        "email": "fleur.dascores@momento.edu",
+        "telefone": "+33-555-0201",
+        "data_contratacao": {
+            "$date": "2011-09-12T00:00:00.000Z"
+        },
+        "cargo_id": 30,
+        "salario": {
+            "$numberDecimal": "9200.00"
+        },
+        "moeda_salario": "EUR",
+        "gerente_id": null,
+        "departamento_id": 26,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 509,
+                "primeiro_nome": "Victoire",
+                "sobrenome": "Dascores",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 510,
+                "primeiro_nome": "Dominique",
+                "sobrenome": "Dascores",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 511,
+                "primeiro_nome": "Louis",
+                "sobrenome": "Dascores",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 188,
+        "primeiro_nome": "Gabrielle",
+        "sobrenome": "Dascores",
+        "email": "gabrielle.dascores@momento.edu",
+        "telefone": "+33-555-0202",
+        "data_contratacao": {
+            "$date": "2015-04-18T00:00:00.000Z"
+        },
+        "cargo_id": 40,
+        "salario": {
+            "$numberDecimal": "2400.00"
+        },
+        "moeda_salario": "EUR",
+        "gerente_id": 187,
+        "departamento_id": 26,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 512,
+                "primeiro_nome": "Amélie",
+                "sobrenome": "Dascores",
+                "relacionamento": "Sobrinha"
+            }
+        ]
+    },
+    {
+        "_id": 189,
+        "primeiro_nome": "Olympe",
+        "sobrenome": "Maxime",
+        "email": "olympe.maxime@momento.edu",
+        "telefone": "+33-555-0203",
+        "data_contratacao": {
+            "$date": "2005-11-01T00:00:00.000Z"
+        },
+        "cargo_id": 29,
+        "salario": {
+            "$numberDecimal": "14000.00"
+        },
+        "moeda_salario": "EUR",
+        "gerente_id": 187,
+        "departamento_id": 26,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 190,
+        "primeiro_nome": "Nicole",
+        "sobrenome": "Rousseau",
+        "email": "nicole.rousseau@momento.edu",
+        "telefone": "+33-555-0204",
+        "data_contratacao": {
+            "$date": "2012-06-30T00:00:00.000Z"
+        },
+        "cargo_id": 34,
+        "salario": {
+            "$numberDecimal": "4100.00"
+        },
+        "moeda_salario": "EUR",
+        "gerente_id": 187,
+        "departamento_id": 27,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 513,
+                "primeiro_nome": "Hugo",
+                "sobrenome": "Rousseau",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 514,
+                "primeiro_nome": "Camille",
+                "sobrenome": "Rousseau",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 191,
+        "primeiro_nome": "Atienne",
+        "sobrenome": "Moreau",
+        "email": "etienne.moreau@momento.edu",
+        "telefone": "+33-555-0205",
+        "data_contratacao": {
+            "$date": "2013-08-22T00:00:00.000Z"
+        },
+        "cargo_id": 35,
+        "salario": {
+            "$numberDecimal": "3800.00"
+        },
+        "moeda_salario": "EUR",
+        "gerente_id": 187,
+        "departamento_id": 26,
+        "status_funcionario_id": 2,
+        "dependentes": [
+            {
+                "_id": 515,
+                "primeiro_nome": "Théo",
+                "sobrenome": "Moreau",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 516,
+                "primeiro_nome": "Léa",
+                "sobrenome": "Moreau",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 192,
+        "primeiro_nome": "Beatriz",
+        "sobrenome": "Gonçalves",
+        "email": "beatriz.goncalves@momento.edu",
+        "telefone": "+351-555-0301",
+        "data_contratacao": {
+            "$date": "2014-01-15T00:00:00.000Z"
+        },
+        "cargo_id": 30,
+        "salario": {
+            "$numberDecimal": "7200.00"
+        },
+        "moeda_salario": "EUR",
+        "gerente_id": null,
+        "departamento_id": 27,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 517,
+                "primeiro_nome": "João",
+                "sobrenome": "Gonçalves",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 518,
+                "primeiro_nome": "Maria",
+                "sobrenome": "Gonçalves",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 193,
+        "primeiro_nome": "Tomas",
+        "sobrenome": "Ferreira",
+        "email": "tomas.ferreira@momento.edu",
+        "telefone": "+351-555-0302",
+        "data_contratacao": {
+            "$date": "2016-03-09T00:00:00.000Z"
+        },
+        "cargo_id": 31,
+        "salario": {
+            "$numberDecimal": "4900.00"
+        },
+        "moeda_salario": "EUR",
+        "gerente_id": 192,
+        "departamento_id": 27,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 519,
+                "primeiro_nome": "Pedro",
+                "sobrenome": "Ferreira",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 520,
+                "primeiro_nome": "Sofia",
+                "sobrenome": "Ferreira",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 194,
+        "primeiro_nome": "Inuis",
+        "sobrenome": "Salgado",
+        "email": "ines.salgado@momento.edu",
+        "telefone": "+351-555-0303",
+        "data_contratacao": {
+            "$date": "2017-10-02T00:00:00.000Z"
+        },
+        "cargo_id": 34,
+        "salario": {
+            "$numberDecimal": "3900.00"
+        },
+        "moeda_salario": "EUR",
+        "gerente_id": 192,
+        "departamento_id": 27,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 521,
+                "primeiro_nome": "Rita",
+                "sobrenome": "Salgado",
+                "relacionamento": "Sobrinha"
+            }
+        ]
+    },
+    {
+        "_id": 195,
+        "primeiro_nome": "Rui",
+        "sobrenome": "Meireles",
+        "email": "rui.meireles@momento.edu",
+        "telefone": "+351-555-0304",
+        "data_contratacao": {
+            "$date": "2018-05-20T00:00:00.000Z"
+        },
+        "cargo_id": 37,
+        "salario": {
+            "$numberDecimal": "4300.00"
+        },
+        "moeda_salario": "EUR",
+        "gerente_id": 192,
+        "departamento_id": 30,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 522,
+                "primeiro_nome": "Nuno",
+                "sobrenome": "Meireles",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 196,
+        "primeiro_nome": "Carla",
+        "sobrenome": "Nogueira",
+        "email": "carla.nogueira@momento.edu",
+        "telefone": "+351-555-0305",
+        "data_contratacao": {
+            "$date": "2019-09-11T00:00:00.000Z"
+        },
+        "cargo_id": 39,
+        "salario": {
+            "$numberDecimal": "2900.00"
+        },
+        "moeda_salario": "EUR",
+        "gerente_id": 192,
+        "departamento_id": 28,
+        "status_funcionario_id": 3,
+        "dependentes": [
+            {
+                "_id": 523,
+                "primeiro_nome": "Teresa",
+                "sobrenome": "Nogueira",
+                "relacionamento": "Mãe"
+            }
+        ]
+    },
+    {
+        "_id": 197,
+        "primeiro_nome": "Paulo",
+        "sobrenome": "Andrade",
+        "email": "paulo.andrade@momento.edu",
+        "telefone": "+55-555-0401",
+        "data_contratacao": {
+            "$date": "2013-02-28T00:00:00.000Z"
+        },
+        "cargo_id": 29,
+        "salario": {
+            "$numberDecimal": "45000.00"
+        },
+        "moeda_salario": "BRL",
+        "gerente_id": null,
+        "departamento_id": 28,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 524,
+                "primeiro_nome": "Clara",
+                "sobrenome": "Andrade",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 525,
+                "primeiro_nome": "Henrique",
+                "sobrenome": "Andrade",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 198,
+        "primeiro_nome": "Marina",
+        "sobrenome": "Costa",
+        "email": "marina.costa@momento.edu",
+        "telefone": "+55-555-0402",
+        "data_contratacao": {
+            "$date": "2015-07-14T00:00:00.000Z"
+        },
+        "cargo_id": 30,
+        "salario": {
+            "$numberDecimal": "22000.00"
+        },
+        "moeda_salario": "BRL",
+        "gerente_id": 197,
+        "departamento_id": 28,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 526,
+                "primeiro_nome": "Júlia",
+                "sobrenome": "Costa",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 527,
+                "primeiro_nome": "Rafael",
+                "sobrenome": "Costa",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 199,
+        "primeiro_nome": "Lucas",
+        "sobrenome": "Pereira",
+        "email": "lucas.pereira@momento.edu",
+        "telefone": "+55-555-0403",
+        "data_contratacao": {
+            "$date": "2016-11-23T00:00:00.000Z"
+        },
+        "cargo_id": 32,
+        "salario": {
+            "$numberDecimal": "18000.00"
+        },
+        "moeda_salario": "BRL",
+        "gerente_id": 197,
+        "departamento_id": 23,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 528,
+                "primeiro_nome": "Bruno",
+                "sobrenome": "Pereira",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 529,
+                "primeiro_nome": "Helena",
+                "sobrenome": "Pereira",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 200,
+        "primeiro_nome": "Fernanda",
+        "sobrenome": "Lima",
+        "email": "fernanda.lima@momento.edu",
+        "telefone": "+55-555-0404",
+        "data_contratacao": {
+            "$date": "2017-04-17T00:00:00.000Z"
+        },
+        "cargo_id": 35,
+        "salario": {
+            "$numberDecimal": "9500.00"
+        },
+        "moeda_salario": "BRL",
+        "gerente_id": 197,
+        "departamento_id": 26,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 530,
+                "primeiro_nome": "Lorena",
+                "sobrenome": "Lima",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 531,
+                "primeiro_nome": "Murilo",
+                "sobrenome": "Lima",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 201,
+        "primeiro_nome": "Gustavo",
+        "sobrenome": "Souza",
+        "email": "gustavo.souza@momento.edu",
+        "telefone": "+55-555-0405",
+        "data_contratacao": {
+            "$date": "2018-08-05T00:00:00.000Z"
+        },
+        "cargo_id": 33,
+        "salario": {
+            "$numberDecimal": "7800.00"
+        },
+        "moeda_salario": "BRL",
+        "gerente_id": 197,
+        "departamento_id": 28,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 532,
+                "primeiro_nome": "Cláudio",
+                "sobrenome": "Souza",
+                "relacionamento": "Pai"
+            }
+        ]
+    },
+    {
+        "_id": 202,
+        "primeiro_nome": "Ana",
+        "sobrenome": "Martins",
+        "email": "ana.martins@momento.edu",
+        "telefone": "+55-555-0406",
+        "data_contratacao": {
+            "$date": "2019-12-01T00:00:00.000Z"
+        },
+        "cargo_id": 40,
+        "salario": {
+            "$numberDecimal": "5200.00"
+        },
+        "moeda_salario": "BRL",
+        "gerente_id": 198,
+        "departamento_id": 28,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 533,
+                "primeiro_nome": "Bianca",
+                "sobrenome": "Martins",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 534,
+                "primeiro_nome": "Lucas",
+                "sobrenome": "Martins",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 203,
+        "primeiro_nome": "Rodrigo",
+        "sobrenome": "Alves",
+        "email": "rodrigo.alves@momento.edu",
+        "telefone": "+55-555-0407",
+        "data_contratacao": {
+            "$date": "2020-06-19T00:00:00.000Z"
+        },
+        "cargo_id": 31,
+        "salario": {
+            "$numberDecimal": "12000.00"
+        },
+        "moeda_salario": "BRL",
+        "gerente_id": 198,
+        "departamento_id": 24,
+        "status_funcionario_id": 2,
+        "dependentes": [
+            {
+                "_id": 535,
+                "primeiro_nome": "Cecília",
+                "sobrenome": "Alves",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 536,
+                "primeiro_nome": "Arthur",
+                "sobrenome": "Alves",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 204,
+        "primeiro_nome": "Elizabeth",
+        "sobrenome": "Madpreta",
+        "email": "elizabeth.madpreta@momento.edu",
+        "telefone": "+1-555-0501",
+        "data_contratacao": {
+            "$date": "2010-10-31T00:00:00.000Z"
+        },
+        "cargo_id": 29,
+        "salario": {
+            "$numberDecimal": "17000.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": null,
+        "departamento_id": 29,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 537,
+                "primeiro_nome": "Morgana",
+                "sobrenome": "Madpreta",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 538,
+                "primeiro_nome": "Merlin",
+                "sobrenome": "Madpreta",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 205,
+        "primeiro_nome": "Nathan",
+        "sobrenome": "Hawthorne",
+        "email": "nathan.hawthorne@momento.edu",
+        "telefone": "+1-555-0502",
+        "data_contratacao": {
+            "$date": "2012-02-29T00:00:00.000Z"
+        },
+        "cargo_id": 36,
+        "salario": {
+            "$numberDecimal": "7800.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": null,
+        "departamento_id": 29,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 539,
+                "primeiro_nome": "Luna",
+                "sobrenome": "Hawthorne",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 540,
+                "primeiro_nome": "Orion",
+                "sobrenome": "Hawthorne",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 206,
+        "primeiro_nome": "Samantha",
+        "sobrenome": "Crowley",
+        "email": "samantha.crowley@momento.edu",
+        "telefone": "+1-555-0503",
+        "data_contratacao": {
+            "$date": "2014-09-15T00:00:00.000Z"
+        },
+        "cargo_id": 36,
+        "salario": {
+            "$numberDecimal": "6500.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 205,
+        "departamento_id": 29,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 541,
+                "primeiro_nome": "Cassandra",
+                "sobrenome": "Crowley",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 207,
+        "primeiro_nome": "Daniel",
+        "sobrenome": "Ravenwood",
+        "email": "daniel.ravenwood@momento.edu",
+        "telefone": "+1-555-0504",
+        "data_contratacao": {
+            "$date": "2015-03-07T00:00:00.000Z"
+        },
+        "cargo_id": 38,
+        "salario": {
+            "$numberDecimal": "9200.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 204,
+        "departamento_id": 25,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 542,
+                "primeiro_nome": "Phoenix",
+                "sobrenome": "Ravenwood",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 208,
+        "primeiro_nome": "Olivia",
+        "sobrenome": "Moon",
+        "email": "olivia.moon@momento.edu",
+        "telefone": "+1-555-0505",
+        "data_contratacao": {
+            "$date": "2016-07-21T00:00:00.000Z"
+        },
+        "cargo_id": 34,
+        "salario": {
+            "$numberDecimal": "4700.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 204,
+        "departamento_id": 27,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 543,
+                "primeiro_nome": "Iris",
+                "sobrenome": "Moon",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 209,
+        "primeiro_nome": "Ethan",
+        "sobrenome": "Frost",
+        "email": "ethan.frost@momento.edu",
+        "telefone": "+1-555-0506",
+        "data_contratacao": {
+            "$date": "2017-11-30T00:00:00.000Z"
+        },
+        "cargo_id": 31,
+        "salario": {
+            "$numberDecimal": "5600.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 204,
+        "departamento_id": 25,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 210,
+        "primeiro_nome": "Grace",
+        "sobrenome": "Willow",
+        "email": "grace.willow@momento.edu",
+        "telefone": "+1-555-0507",
+        "data_contratacao": {
+            "$date": "2018-04-12T00:00:00.000Z"
+        },
+        "cargo_id": 37,
+        "salario": {
+            "$numberDecimal": "6100.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 204,
+        "departamento_id": 30,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 211,
+        "primeiro_nome": "Jacob",
+        "sobrenome": "Stone",
+        "email": "jacob.stone@momento.edu",
+        "telefone": "+1-555-0508",
+        "data_contratacao": {
+            "$date": "2019-01-25T00:00:00.000Z"
+        },
+        "cargo_id": 40,
+        "salario": {
+            "$numberDecimal": "2600.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 205,
+        "departamento_id": 29,
+        "status_funcionario_id": 3,
+        "dependentes": []
+    },
+    {
+        "_id": 212,
+        "primeiro_nome": "Haruki",
+        "sobrenome": "Tanaka",
+        "email": "haruki.tanaka@momento.edu",
+        "telefone": "+81-555-0601",
+        "data_contratacao": {
+            "$date": "2011-05-05T00:00:00.000Z"
+        },
+        "cargo_id": 29,
+        "salario": {
+            "$numberDecimal": "16500.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": null,
+        "departamento_id": 30,
+        "status_funcionario_id": 1,
+        "dependentes": [
+            {
+                "_id": 544,
+                "primeiro_nome": "Hana",
+                "sobrenome": "Tanaka",
+                "relacionamento": "Filha(o)"
+            },
+            {
+                "_id": 545,
+                "primeiro_nome": "Kaito",
+                "sobrenome": "Tanaka",
+                "relacionamento": "Filha(o)"
+            }
+        ]
+    },
+    {
+        "_id": 213,
+        "primeiro_nome": "Yuki",
+        "sobrenome": "Sato",
+        "email": "yuki.sato@momento.edu",
+        "telefone": "+81-555-0602",
+        "data_contratacao": {
+            "$date": "2013-08-08T00:00:00.000Z"
+        },
+        "cargo_id": 37,
+        "salario": {
+            "$numberDecimal": "6800.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 212,
+        "departamento_id": 30,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 214,
+        "primeiro_nome": "Kenji",
+        "sobrenome": "Nakamura",
+        "email": "kenji.nakamura@momento.edu",
+        "telefone": "+81-555-0603",
+        "data_contratacao": {
+            "$date": "2015-02-14T00:00:00.000Z"
+        },
+        "cargo_id": 31,
+        "salario": {
+            "$numberDecimal": "5100.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 212,
+        "departamento_id": 24,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 215,
+        "primeiro_nome": "Aiko",
+        "sobrenome": "Yamamoto",
+        "email": "aiko.yamamoto@momento.edu",
+        "telefone": "+81-555-0604",
+        "data_contratacao": {
+            "$date": "2016-10-10T00:00:00.000Z"
+        },
+        "cargo_id": 35,
+        "salario": {
+            "$numberDecimal": "4400.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 212,
+        "departamento_id": 26,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 216,
+        "primeiro_nome": "Ryo",
+        "sobrenome": "Kobayashi",
+        "email": "ryo.kobayashi@momento.edu",
+        "telefone": "+81-555-0605",
+        "data_contratacao": {
+            "$date": "2017-06-06T00:00:00.000Z"
+        },
+        "cargo_id": 33,
+        "salario": {
+            "$numberDecimal": "3900.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 212,
+        "departamento_id": 30,
+        "status_funcionario_id": 2,
+        "dependentes": []
+    },
+    {
+        "_id": 217,
+        "primeiro_nome": "Mei",
+        "sobrenome": "Ito",
+        "email": "mei.ito@momento.edu",
+        "telefone": "+81-555-0606",
+        "data_contratacao": {
+            "$date": "2018-12-24T00:00:00.000Z"
+        },
+        "cargo_id": 34,
+        "salario": {
+            "$numberDecimal": "4200.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 212,
+        "departamento_id": 27,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 218,
+        "primeiro_nome": "Takumi",
+        "sobrenome": "Watanabe",
+        "email": "takumi.watanabe@momento.edu",
+        "telefone": "+81-555-0607",
+        "data_contratacao": {
+            "$date": "2019-07-07T00:00:00.000Z"
+        },
+        "cargo_id": 39,
+        "salario": {
+            "$numberDecimal": "3100.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 212,
+        "departamento_id": 28,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 219,
+        "primeiro_nome": "Sakura",
+        "sobrenome": "Mori",
+        "email": "sakura.mori@momento.edu",
+        "telefone": "+81-555-0608",
+        "data_contratacao": {
+            "$date": "2020-03-03T00:00:00.000Z"
+        },
+        "cargo_id": 40,
+        "salario": {
+            "$numberDecimal": "2400.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 213,
+        "departamento_id": 30,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 220,
+        "primeiro_nome": "Diego",
+        "sobrenome": "Fernández",
+        "email": "diego.fernandez@momento.edu",
+        "telefone": "+1-555-0509",
+        "data_contratacao": {
+            "$date": "2021-01-18T00:00:00.000Z"
+        },
+        "cargo_id": 31,
+        "salario": {
+            "$numberDecimal": "5400.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 204,
+        "departamento_id": 25,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 221,
+        "primeiro_nome": "Larissa",
+        "sobrenome": "Oliveira",
+        "email": "larissa.oliveira@momento.edu",
+        "telefone": "+55-555-0408",
+        "data_contratacao": {
+            "$date": "2022-02-22T00:00:00.000Z"
+        },
+        "cargo_id": 40,
+        "salario": {
+            "$numberDecimal": "4800.00"
+        },
+        "moeda_salario": "BRL",
+        "gerente_id": 198,
+        "departamento_id": 28,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    },
+    {
+        "_id": 300,
+        "primeiro_nome": "Ariel",
+        "sobrenome": "Nunes",
+        "email": "ariel.nunes@momento.org",
+        "telefone": "+1-555-9200",
+        "data_contratacao": {
+            "$date": "2025-05-12T00:00:00.000Z"
+        },
+        "cargo_id": 9,
+        "salario": {
+            "$numberDecimal": "5200.00"
+        },
+        "moeda_salario": "USD",
+        "gerente_id": 103,
+        "departamento_id": 6,
+        "status_funcionario_id": 1,
+        "dependentes": []
+    }
+]

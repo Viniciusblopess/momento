@@ -1,0 +1,1682 @@
+[
+    {
+        "_id": 1,
+        "venda_id": 7001,
+        "referencia_origem": "ERP-7001",
+        "numero_item": 1,
+        "produto_id": 6,
+        "quantidade": 3,
+        "preco_unitario": {
+            "$numberDecimal": "271.67"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-01-03T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 3,
+        "status_venda": "CANCELADA"
+    },
+    {
+        "_id": 2,
+        "venda_id": 7001,
+        "referencia_origem": "ERP-7001",
+        "numero_item": 2,
+        "produto_id": 11,
+        "quantidade": 5,
+        "preco_unitario": {
+            "$numberDecimal": "566.42"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-01-03T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 3,
+        "status_venda": "CANCELADA"
+    },
+    {
+        "_id": 3,
+        "venda_id": 7001,
+        "referencia_origem": "ERP-7001",
+        "numero_item": 3,
+        "produto_id": 16,
+        "quantidade": 7,
+        "preco_unitario": {
+            "$numberDecimal": "4352.29"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-01-03T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 3,
+        "status_venda": "CANCELADA"
+    },
+    {
+        "_id": 4,
+        "venda_id": 7002,
+        "referencia_origem": "ERP-7002",
+        "numero_item": 1,
+        "produto_id": 9,
+        "quantidade": 4,
+        "preco_unitario": {
+            "$numberDecimal": "130.18"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-01-22T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 5,
+        "venda_id": 7003,
+        "referencia_origem": "ERP-7003",
+        "numero_item": 1,
+        "produto_id": 12,
+        "quantidade": 5,
+        "preco_unitario": {
+            "$numberDecimal": "764.44"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-02-10T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 6,
+        "venda_id": 7004,
+        "referencia_origem": "ERP-7004",
+        "numero_item": 1,
+        "produto_id": 15,
+        "quantidade": 6,
+        "preco_unitario": {
+            "$numberDecimal": "205.16"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-03-01T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 7,
+        "venda_id": 7004,
+        "referencia_origem": "ERP-7004",
+        "numero_item": 2,
+        "produto_id": 20,
+        "quantidade": 8,
+        "preco_unitario": {
+            "$numberDecimal": "1702.13"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-03-01T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 8,
+        "venda_id": 7005,
+        "referencia_origem": "ERP-7005",
+        "numero_item": 1,
+        "produto_id": 18,
+        "quantidade": 7,
+        "preco_unitario": {
+            "$numberDecimal": "923.98"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-03-20T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 9,
+        "venda_id": 7006,
+        "referencia_origem": "ERP-7006",
+        "numero_item": 1,
+        "produto_id": 21,
+        "quantidade": 8,
+        "preco_unitario": {
+            "$numberDecimal": "1289.41"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-04-08T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 10,
+        "venda_id": 7007,
+        "referencia_origem": "ERP-7007",
+        "numero_item": 1,
+        "produto_id": 24,
+        "quantidade": 9,
+        "preco_unitario": {
+            "$numberDecimal": "6983.55"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-04-27T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 11,
+        "venda_id": 7007,
+        "referencia_origem": "ERP-7007",
+        "numero_item": 2,
+        "produto_id": 29,
+        "quantidade": 11,
+        "preco_unitario": {
+            "$numberDecimal": "344.76"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-04-27T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 12,
+        "venda_id": 7008,
+        "referencia_origem": "ERP-7008",
+        "numero_item": 1,
+        "produto_id": 27,
+        "quantidade": 10,
+        "preco_unitario": {
+            "$numberDecimal": "2523.97"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-05-16T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 13,
+        "venda_id": 7008,
+        "referencia_origem": "ERP-7008",
+        "numero_item": 2,
+        "produto_id": 32,
+        "quantidade": 12,
+        "preco_unitario": {
+            "$numberDecimal": "164.67"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-05-16T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 14,
+        "venda_id": 7009,
+        "referencia_origem": "ERP-7009",
+        "numero_item": 1,
+        "produto_id": 30,
+        "quantidade": 11,
+        "preco_unitario": {
+            "$numberDecimal": "4565.94"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-06-04T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 15,
+        "venda_id": 7010,
+        "referencia_origem": "ERP-7010",
+        "numero_item": 1,
+        "produto_id": 33,
+        "quantidade": 12,
+        "preco_unitario": {
+            "$numberDecimal": "599.78"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-06-23T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 16,
+        "venda_id": 7010,
+        "referencia_origem": "ERP-7010",
+        "numero_item": 2,
+        "produto_id": 2,
+        "quantidade": 2,
+        "preco_unitario": {
+            "$numberDecimal": "234.60"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-06-23T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 17,
+        "venda_id": 7011,
+        "referencia_origem": "ERP-7011",
+        "numero_item": 1,
+        "produto_id": 36,
+        "quantidade": 1,
+        "preco_unitario": {
+            "$numberDecimal": "48.41"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-07-12T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 18,
+        "venda_id": 7012,
+        "referencia_origem": "ERP-7012",
+        "numero_item": 1,
+        "produto_id": 3,
+        "quantidade": 2,
+        "preco_unitario": {
+            "$numberDecimal": "245.85"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-07-31T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 19,
+        "venda_id": 7013,
+        "referencia_origem": "ERP-7013",
+        "numero_item": 1,
+        "produto_id": 6,
+        "quantidade": 3,
+        "preco_unitario": {
+            "$numberDecimal": "273.65"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-08-19T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 20,
+        "venda_id": 7013,
+        "referencia_origem": "ERP-7013",
+        "numero_item": 2,
+        "produto_id": 11,
+        "quantidade": 5,
+        "preco_unitario": {
+            "$numberDecimal": "589.93"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-08-19T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 21,
+        "venda_id": 7014,
+        "referencia_origem": "ERP-7014",
+        "numero_item": 1,
+        "produto_id": 9,
+        "quantidade": 4,
+        "preco_unitario": {
+            "$numberDecimal": "134.31"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-09-07T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 2,
+        "status_venda": "1"
+    },
+    {
+        "_id": 22,
+        "venda_id": 7015,
+        "referencia_origem": "ERP-7015",
+        "numero_item": 1,
+        "produto_id": 12,
+        "quantidade": 5,
+        "preco_unitario": {
+            "$numberDecimal": "908.90"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-09-26T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 23,
+        "venda_id": 7015,
+        "referencia_origem": "ERP-7015",
+        "numero_item": 2,
+        "produto_id": 17,
+        "quantidade": 7,
+        "preco_unitario": {
+            "$numberDecimal": "3936.17"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-09-26T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 24,
+        "venda_id": 7016,
+        "referencia_origem": "ERP-7016",
+        "numero_item": 1,
+        "produto_id": 15,
+        "quantidade": 6,
+        "preco_unitario": {
+            "$numberDecimal": "172.37"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-10-15T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 25,
+        "venda_id": 7016,
+        "referencia_origem": "ERP-7016",
+        "numero_item": 2,
+        "produto_id": 20,
+        "quantidade": 8,
+        "preco_unitario": {
+            "$numberDecimal": "1653.65"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-10-15T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 26,
+        "venda_id": 7017,
+        "referencia_origem": "ERP-7017",
+        "numero_item": 1,
+        "produto_id": 18,
+        "quantidade": 7,
+        "preco_unitario": {
+            "$numberDecimal": "912.80"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-11-03T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 27,
+        "venda_id": 7018,
+        "referencia_origem": "ERP-7018",
+        "numero_item": 1,
+        "produto_id": 21,
+        "quantidade": 8,
+        "preco_unitario": {
+            "$numberDecimal": "1144.78"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-11-22T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 3,
+        "status_venda": "CANCELADA"
+    },
+    {
+        "_id": 28,
+        "venda_id": 7019,
+        "referencia_origem": "ERP-7019",
+        "numero_item": 1,
+        "produto_id": 24,
+        "quantidade": 9,
+        "preco_unitario": {
+            "$numberDecimal": "6124.70"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-12-11T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 29,
+        "venda_id": 7019,
+        "referencia_origem": "ERP-7019",
+        "numero_item": 2,
+        "produto_id": 29,
+        "quantidade": 11,
+        "preco_unitario": {
+            "$numberDecimal": "409.25"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-12-11T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 30,
+        "venda_id": 7020,
+        "referencia_origem": "ERP-7020",
+        "numero_item": 1,
+        "produto_id": 27,
+        "quantidade": 10,
+        "preco_unitario": {
+            "$numberDecimal": "2752.47"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-12-30T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 31,
+        "venda_id": 7021,
+        "referencia_origem": "ERP-7021",
+        "numero_item": 1,
+        "produto_id": 30,
+        "quantidade": 11,
+        "preco_unitario": {
+            "$numberDecimal": "5047.48"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-01-18T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 32,
+        "venda_id": 7022,
+        "referencia_origem": "ERP-7022",
+        "numero_item": 1,
+        "produto_id": 33,
+        "quantidade": 12,
+        "preco_unitario": {
+            "$numberDecimal": "611.70"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-02-06T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 33,
+        "venda_id": 7022,
+        "referencia_origem": "ERP-7022",
+        "numero_item": 2,
+        "produto_id": 2,
+        "quantidade": 2,
+        "preco_unitario": {
+            "$numberDecimal": "198.88"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-02-06T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 34,
+        "venda_id": 7022,
+        "referencia_origem": "ERP-7022",
+        "numero_item": 3,
+        "produto_id": 7,
+        "quantidade": 4,
+        "preco_unitario": {
+            "$numberDecimal": "335.13"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-02-06T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 35,
+        "venda_id": 7023,
+        "referencia_origem": "ERP-7023",
+        "numero_item": 1,
+        "produto_id": 36,
+        "quantidade": 1,
+        "preco_unitario": {
+            "$numberDecimal": "50.20"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-02-25T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 36,
+        "venda_id": 7024,
+        "referencia_origem": "ERP-7024",
+        "numero_item": 1,
+        "produto_id": 3,
+        "quantidade": 2,
+        "preco_unitario": {
+            "$numberDecimal": "245.06"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-03-15T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 37,
+        "venda_id": 7025,
+        "referencia_origem": "ERP-7025",
+        "numero_item": 1,
+        "produto_id": 6,
+        "quantidade": 3,
+        "preco_unitario": {
+            "$numberDecimal": "332.87"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-04-03T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 38,
+        "venda_id": 7025,
+        "referencia_origem": "ERP-7025",
+        "numero_item": 2,
+        "produto_id": 11,
+        "quantidade": 5,
+        "preco_unitario": {
+            "$numberDecimal": "653.65"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-04-03T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 39,
+        "venda_id": 7026,
+        "referencia_origem": "ERP-7026",
+        "numero_item": 1,
+        "produto_id": 9,
+        "quantidade": 4,
+        "preco_unitario": {
+            "$numberDecimal": "128.60"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-04-22T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 40,
+        "venda_id": 7027,
+        "referencia_origem": "ERP-7027",
+        "numero_item": 1,
+        "produto_id": 12,
+        "quantidade": 5,
+        "preco_unitario": {
+            "$numberDecimal": "834.43"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-05-11T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 2,
+        "status_venda": "1"
+    },
+    {
+        "_id": 41,
+        "venda_id": 7028,
+        "referencia_origem": "ERP-7028",
+        "numero_item": 1,
+        "produto_id": 15,
+        "quantidade": 6,
+        "preco_unitario": {
+            "$numberDecimal": "173.40"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-05-30T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 42,
+        "venda_id": 7028,
+        "referencia_origem": "ERP-7028",
+        "numero_item": 2,
+        "produto_id": 20,
+        "quantidade": 8,
+        "preco_unitario": {
+            "$numberDecimal": "1634.81"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-05-30T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 43,
+        "venda_id": 7029,
+        "referencia_origem": "ERP-7029",
+        "numero_item": 1,
+        "produto_id": 18,
+        "quantidade": 7,
+        "preco_unitario": {
+            "$numberDecimal": "832.89"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-06-18T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 44,
+        "venda_id": 7029,
+        "referencia_origem": "ERP-7029",
+        "numero_item": 2,
+        "produto_id": 23,
+        "quantidade": 9,
+        "preco_unitario": {
+            "$numberDecimal": "677.53"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-06-18T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 45,
+        "venda_id": 7030,
+        "referencia_origem": "ERP-7030",
+        "numero_item": 1,
+        "produto_id": 21,
+        "quantidade": 8,
+        "preco_unitario": {
+            "$numberDecimal": "1346.76"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-07-07T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 46,
+        "venda_id": 7031,
+        "referencia_origem": "ERP-7031",
+        "numero_item": 1,
+        "produto_id": 24,
+        "quantidade": 9,
+        "preco_unitario": {
+            "$numberDecimal": "6148.41"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-07-26T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 47,
+        "venda_id": 7031,
+        "referencia_origem": "ERP-7031",
+        "numero_item": 2,
+        "produto_id": 29,
+        "quantidade": 11,
+        "preco_unitario": {
+            "$numberDecimal": "397.00"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-07-26T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 48,
+        "venda_id": 7032,
+        "referencia_origem": "ERP-7032",
+        "numero_item": 1,
+        "produto_id": 27,
+        "quantidade": 10,
+        "preco_unitario": {
+            "$numberDecimal": "2760.31"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-08-14T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 49,
+        "venda_id": 7033,
+        "referencia_origem": "ERP-7033",
+        "numero_item": 1,
+        "produto_id": 30,
+        "quantidade": 11,
+        "preco_unitario": {
+            "$numberDecimal": "4565.31"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-09-02T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 50,
+        "venda_id": 7034,
+        "referencia_origem": "ERP-7034",
+        "numero_item": 1,
+        "produto_id": 33,
+        "quantidade": 12,
+        "preco_unitario": {
+            "$numberDecimal": "669.90"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-09-21T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 51,
+        "venda_id": 7034,
+        "referencia_origem": "ERP-7034",
+        "numero_item": 2,
+        "produto_id": 2,
+        "quantidade": 2,
+        "preco_unitario": {
+            "$numberDecimal": "248.62"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-09-21T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 52,
+        "venda_id": 7035,
+        "referencia_origem": "ERP-7035",
+        "numero_item": 1,
+        "produto_id": 36,
+        "quantidade": 1,
+        "preco_unitario": {
+            "$numberDecimal": "47.11"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-10-10T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 3,
+        "status_venda": "CANCELADA"
+    },
+    {
+        "_id": 53,
+        "venda_id": 7036,
+        "referencia_origem": "ERP-7036",
+        "numero_item": 1,
+        "produto_id": 3,
+        "quantidade": 2,
+        "preco_unitario": {
+            "$numberDecimal": "231.98"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-10-29T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 54,
+        "venda_id": 7036,
+        "referencia_origem": "ERP-7036",
+        "numero_item": 2,
+        "produto_id": 8,
+        "quantidade": 4,
+        "preco_unitario": {
+            "$numberDecimal": "845.76"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-10-29T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 55,
+        "venda_id": 7037,
+        "referencia_origem": "ERP-7037",
+        "numero_item": 1,
+        "produto_id": 6,
+        "quantidade": 3,
+        "preco_unitario": {
+            "$numberDecimal": "287.83"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-11-17T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 56,
+        "venda_id": 7037,
+        "referencia_origem": "ERP-7037",
+        "numero_item": 2,
+        "produto_id": 11,
+        "quantidade": 5,
+        "preco_unitario": {
+            "$numberDecimal": "670.79"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-11-17T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 57,
+        "venda_id": 7038,
+        "referencia_origem": "ERP-7038",
+        "numero_item": 1,
+        "produto_id": 9,
+        "quantidade": 4,
+        "preco_unitario": {
+            "$numberDecimal": "142.24"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-12-06T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 58,
+        "venda_id": 7039,
+        "referencia_origem": "ERP-7039",
+        "numero_item": 1,
+        "produto_id": 12,
+        "quantidade": 5,
+        "preco_unitario": {
+            "$numberDecimal": "845.63"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2024-12-25T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 59,
+        "venda_id": 7040,
+        "referencia_origem": "ERP-7040",
+        "numero_item": 1,
+        "produto_id": 15,
+        "quantidade": 6,
+        "preco_unitario": {
+            "$numberDecimal": "196.91"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-01-13T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 2,
+        "status_venda": "1"
+    },
+    {
+        "_id": 60,
+        "venda_id": 7040,
+        "referencia_origem": "ERP-7040",
+        "numero_item": 2,
+        "produto_id": 20,
+        "quantidade": 8,
+        "preco_unitario": {
+            "$numberDecimal": "1498.64"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-01-13T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 2,
+        "status_venda": "1"
+    },
+    {
+        "_id": 61,
+        "venda_id": 7041,
+        "referencia_origem": "ERP-7041",
+        "numero_item": 1,
+        "produto_id": 18,
+        "quantidade": 7,
+        "preco_unitario": {
+            "$numberDecimal": "948.51"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-02-01T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 62,
+        "venda_id": 7042,
+        "referencia_origem": "ERP-7042",
+        "numero_item": 1,
+        "produto_id": 21,
+        "quantidade": 8,
+        "preco_unitario": {
+            "$numberDecimal": "1208.88"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-02-20T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 63,
+        "venda_id": 7043,
+        "referencia_origem": "ERP-7043",
+        "numero_item": 1,
+        "produto_id": 24,
+        "quantidade": 9,
+        "preco_unitario": {
+            "$numberDecimal": "7053.19"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-03-11T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 64,
+        "venda_id": 7043,
+        "referencia_origem": "ERP-7043",
+        "numero_item": 2,
+        "produto_id": 29,
+        "quantidade": 11,
+        "preco_unitario": {
+            "$numberDecimal": "341.85"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-03-11T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 65,
+        "venda_id": 7043,
+        "referencia_origem": "ERP-7043",
+        "numero_item": 3,
+        "produto_id": 34,
+        "quantidade": 1,
+        "preco_unitario": {
+            "$numberDecimal": "412.55"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-03-11T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 66,
+        "venda_id": 7044,
+        "referencia_origem": "ERP-7044",
+        "numero_item": 1,
+        "produto_id": 27,
+        "quantidade": 10,
+        "preco_unitario": {
+            "$numberDecimal": "2512.87"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-03-30T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 67,
+        "venda_id": 7045,
+        "referencia_origem": "ERP-7045",
+        "numero_item": 1,
+        "produto_id": 30,
+        "quantidade": 11,
+        "preco_unitario": {
+            "$numberDecimal": "4304.41"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-04-18T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 68,
+        "venda_id": 7046,
+        "referencia_origem": "ERP-7046",
+        "numero_item": 1,
+        "produto_id": 33,
+        "quantidade": 12,
+        "preco_unitario": {
+            "$numberDecimal": "618.09"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-05-07T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 69,
+        "venda_id": 7046,
+        "referencia_origem": "ERP-7046",
+        "numero_item": 2,
+        "produto_id": 2,
+        "quantidade": 2,
+        "preco_unitario": {
+            "$numberDecimal": "231.76"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-05-07T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 70,
+        "venda_id": 7047,
+        "referencia_origem": "ERP-7047",
+        "numero_item": 1,
+        "produto_id": 36,
+        "quantidade": 1,
+        "preco_unitario": {
+            "$numberDecimal": "43.59"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-05-26T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 71,
+        "venda_id": 7048,
+        "referencia_origem": "ERP-7048",
+        "numero_item": 1,
+        "produto_id": 3,
+        "quantidade": 2,
+        "preco_unitario": {
+            "$numberDecimal": "200.75"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-06-14T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 72,
+        "venda_id": 7049,
+        "referencia_origem": "ERP-7049",
+        "numero_item": 1,
+        "produto_id": 6,
+        "quantidade": 3,
+        "preco_unitario": {
+            "$numberDecimal": "330.29"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-07-03T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 73,
+        "venda_id": 7049,
+        "referencia_origem": "ERP-7049",
+        "numero_item": 2,
+        "produto_id": 11,
+        "quantidade": 5,
+        "preco_unitario": {
+            "$numberDecimal": "567.59"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-07-03T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 74,
+        "venda_id": 7050,
+        "referencia_origem": "ERP-7050",
+        "numero_item": 1,
+        "produto_id": 9,
+        "quantidade": 4,
+        "preco_unitario": {
+            "$numberDecimal": "142.74"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-07-22T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 75,
+        "venda_id": 7050,
+        "referencia_origem": "ERP-7050",
+        "numero_item": 2,
+        "produto_id": 14,
+        "quantidade": 6,
+        "preco_unitario": {
+            "$numberDecimal": "33.47"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-07-22T00:00:00.000Z"
+        },
+        "funcionario_id": 128,
+        "canal_venda_id": 5,
+        "canal": "B2B",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 76,
+        "venda_id": 7051,
+        "referencia_origem": "ERP-7051",
+        "numero_item": 1,
+        "produto_id": 12,
+        "quantidade": 5,
+        "preco_unitario": {
+            "$numberDecimal": "821.27"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2025-08-10T00:00:00.000Z"
+        },
+        "funcionario_id": 124,
+        "canal_venda_id": 1,
+        "canal": "LOJA",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    },
+    {
+        "_id": 77,
+        "venda_id": 7052,
+        "referencia_origem": "ERP-7052",
+        "numero_item": 1,
+        "produto_id": 15,
+        "quantidade": 6,
+        "preco_unitario": {
+            "$numberDecimal": "189.68"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-01-12T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 3,
+        "status_venda": "CANCELADA"
+    },
+    {
+        "_id": 78,
+        "venda_id": 7052,
+        "referencia_origem": "ERP-7052",
+        "numero_item": 2,
+        "produto_id": 20,
+        "quantidade": 8,
+        "preco_unitario": {
+            "$numberDecimal": "1683.02"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-01-12T00:00:00.000Z"
+        },
+        "funcionario_id": 125,
+        "canal_venda_id": 2,
+        "canal": "WEB",
+        "status_venda_id": 3,
+        "status_venda": "CANCELADA"
+    },
+    {
+        "_id": 79,
+        "venda_id": 7053,
+        "referencia_origem": "ERP-7053",
+        "numero_item": 1,
+        "produto_id": 18,
+        "quantidade": 7,
+        "preco_unitario": {
+            "$numberDecimal": "1025.63"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-01-31T00:00:00.000Z"
+        },
+        "funcionario_id": 126,
+        "canal_venda_id": 3,
+        "canal": "APP",
+        "status_venda_id": 2,
+        "status_venda": "1"
+    },
+    {
+        "_id": 80,
+        "venda_id": 7054,
+        "referencia_origem": "ERP-7054",
+        "numero_item": 1,
+        "produto_id": 21,
+        "quantidade": 8,
+        "preco_unitario": {
+            "$numberDecimal": "1123.55"
+        },
+        "moeda": "USD",
+        "source_row_id": null,
+        "data_venda": {
+            "$date": "2023-02-19T00:00:00.000Z"
+        },
+        "funcionario_id": 127,
+        "canal_venda_id": 4,
+        "canal": "MARKETPLACE",
+        "status_venda_id": 1,
+        "status_venda": "CONCLUIDA"
+    }
+]

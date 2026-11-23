@@ -1,0 +1,434 @@
+[
+    {
+        "_id": 1,
+        "sku": "POP-001",
+        "nome": "Uniforme do Superman",
+        "categoria_id": 1,
+        "categoria": "Uniformes",
+        "preco_unitario": {
+            "$numberDecimal": "300.13"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 2,
+        "sku": "BAT-001",
+        "nome": "Batarang de treino",
+        "categoria_id": 2,
+        "categoria": "Acessórios",
+        "preco_unitario": {
+            "$numberDecimal": "239.29"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 3,
+        "sku": "WEB-001",
+        "nome": "Lança-Teias",
+        "categoria_id": 3,
+        "categoria": "Equipamentos",
+        "preco_unitario": {
+            "$numberDecimal": "237.19"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 4,
+        "sku": "ANT-001",
+        "nome": "Capacete do Homem-Formiga",
+        "categoria_id": 2,
+        "categoria": "Acessórios",
+        "preco_unitario": {
+            "$numberDecimal": "289.29"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 5,
+        "sku": "COS-001",
+        "nome": "Nulificador Total",
+        "categoria_id": 8,
+        "categoria": "Artefatos",
+        "preco_unitario": {
+            "$numberDecimal": "750.19"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 6,
+        "sku": "WW-001",
+        "nome": "Laço da Verdade",
+        "categoria_id": 6,
+        "categoria": "Armas cenográficas",
+        "preco_unitario": {
+            "$numberDecimal": "325.13"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 7,
+        "sku": "IM-005",
+        "nome": "Capacete Iron Man Mark 5",
+        "categoria_id": 2,
+        "categoria": "Acessórios",
+        "preco_unitario": {
+            "$numberDecimal": "322.29"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 8,
+        "sku": "SW-001",
+        "nome": "Sabre de luz de Mace Windu",
+        "categoria_id": 6,
+        "categoria": "Armas cenográficas",
+        "preco_unitario": {
+            "$numberDecimal": "990.29"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 9,
+        "sku": "X-001",
+        "nome": "Sentinela em miniatura",
+        "categoria_id": 4,
+        "categoria": "Colecionáveis",
+        "preco_unitario": {
+            "$numberDecimal": "150.13"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 10,
+        "sku": "X-002",
+        "nome": "Uniforme de moléculas instáveis",
+        "categoria_id": 1,
+        "categoria": "Uniformes",
+        "preco_unitario": {
+            "$numberDecimal": "158.29"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 11,
+        "sku": "WW-002",
+        "nome": "Laço da Honestidade",
+        "categoria_id": 6,
+        "categoria": "Armas cenográficas",
+        "preco_unitario": {
+            "$numberDecimal": "649.29"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 12,
+        "sku": "BAT-002",
+        "nome": "Batarangs oficiais",
+        "categoria_id": 6,
+        "categoria": "Armas cenográficas",
+        "preco_unitario": {
+            "$numberDecimal": "900.29"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 13,
+        "sku": "ROB-001",
+        "nome": "Símbolo do Robin",
+        "categoria_id": 2,
+        "categoria": "Acessórios",
+        "preco_unitario": {
+            "$numberDecimal": "32.29"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 14,
+        "sku": "PKM-001",
+        "nome": "Pokébola clássica",
+        "categoria_id": 7,
+        "categoria": "Brinquedos",
+        "preco_unitario": {
+            "$numberDecimal": "35.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 15,
+        "sku": "PKM-002",
+        "nome": "Pokédex portátil",
+        "categoria_id": 5,
+        "categoria": "Tecnologia",
+        "preco_unitario": {
+            "$numberDecimal": "200.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 16,
+        "sku": "SW-002",
+        "nome": "Capacete Darth Vader",
+        "categoria_id": 2,
+        "categoria": "Acessórios",
+        "preco_unitario": {
+            "$numberDecimal": "4500.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 17,
+        "sku": "MAR-001",
+        "nome": "Escudo do Capitão América",
+        "categoria_id": 3,
+        "categoria": "Equipamentos",
+        "preco_unitario": {
+            "$numberDecimal": "4500.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 18,
+        "sku": "LOTR-001",
+        "nome": "Anel do Poder (réplica)",
+        "categoria_id": 8,
+        "categoria": "Artefatos",
+        "preco_unitario": {
+            "$numberDecimal": "999.99"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 19,
+        "sku": "DBZ-001",
+        "nome": "Scouter",
+        "categoria_id": 5,
+        "categoria": "Tecnologia",
+        "preco_unitario": {
+            "$numberDecimal": "500.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 20,
+        "sku": "ZEL-001",
+        "nome": "Master Sword (réplica)",
+        "categoria_id": 6,
+        "categoria": "Armas cenográficas",
+        "preco_unitario": {
+            "$numberDecimal": "1800.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 21,
+        "sku": "FF-001",
+        "nome": "Buster Sword (réplica)",
+        "categoria_id": 6,
+        "categoria": "Armas cenográficas",
+        "preco_unitario": {
+            "$numberDecimal": "1299.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 22,
+        "sku": "HP-001",
+        "nome": "Varinha de Harry Potter",
+        "categoria_id": 8,
+        "categoria": "Artefatos",
+        "preco_unitario": {
+            "$numberDecimal": "250.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 23,
+        "sku": "SW-003",
+        "nome": "Blaster Imperial",
+        "categoria_id": 6,
+        "categoria": "Armas cenográficas",
+        "preco_unitario": {
+            "$numberDecimal": "750.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 24,
+        "sku": "MAR-002",
+        "nome": "Tesseract decorativo",
+        "categoria_id": 8,
+        "categoria": "Artefatos",
+        "preco_unitario": {
+            "$numberDecimal": "7000.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 25,
+        "sku": "DC-003",
+        "nome": "Caixa Materna cenográfica",
+        "categoria_id": 5,
+        "categoria": "Tecnologia",
+        "preco_unitario": {
+            "$numberDecimal": "1200.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 26,
+        "sku": "BEN-001",
+        "nome": "Omnitrix",
+        "categoria_id": 5,
+        "categoria": "Tecnologia",
+        "preco_unitario": {
+            "$numberDecimal": "300.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 27,
+        "sku": "GOW-001",
+        "nome": "Lâminas do Caos cenográficas",
+        "categoria_id": 6,
+        "categoria": "Armas cenográficas",
+        "preco_unitario": {
+            "$numberDecimal": "3000.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 28,
+        "sku": "DBZ-002",
+        "nome": "Cápsula Hoi-Poi",
+        "categoria_id": 5,
+        "categoria": "Tecnologia",
+        "preco_unitario": {
+            "$numberDecimal": "60.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 29,
+        "sku": "SW-004",
+        "nome": "Blaster de Han Solo",
+        "categoria_id": 6,
+        "categoria": "Armas cenográficas",
+        "preco_unitario": {
+            "$numberDecimal": "400.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 30,
+        "sku": "MAR-003",
+        "nome": "Manopla do Infinito",
+        "categoria_id": 8,
+        "categoria": "Artefatos",
+        "preco_unitario": {
+            "$numberDecimal": "5000.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 31,
+        "sku": "SW-005",
+        "nome": "Sabre de luz vermelho",
+        "categoria_id": 6,
+        "categoria": "Armas cenográficas",
+        "preco_unitario": {
+            "$numberDecimal": "850.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 32,
+        "sku": "DC-004",
+        "nome": "Capa do Batman",
+        "categoria_id": 1,
+        "categoria": "Uniformes",
+        "preco_unitario": {
+            "$numberDecimal": "180.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 33,
+        "sku": "MAR-004",
+        "nome": "Reator Arc decorativo",
+        "categoria_id": 5,
+        "categoria": "Tecnologia",
+        "preco_unitario": {
+            "$numberDecimal": "650.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 34,
+        "sku": "HP-002",
+        "nome": "Chapéu Seletor",
+        "categoria_id": 8,
+        "categoria": "Artefatos",
+        "preco_unitario": {
+            "$numberDecimal": "400.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 35,
+        "sku": "ZEL-002",
+        "nome": "Escudo Hyliano",
+        "categoria_id": 3,
+        "categoria": "Equipamentos",
+        "preco_unitario": {
+            "$numberDecimal": "1250.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    },
+    {
+        "_id": 36,
+        "sku": "PKM-003",
+        "nome": "Boné do treinador",
+        "categoria_id": 2,
+        "categoria": "Acessórios",
+        "preco_unitario": {
+            "$numberDecimal": "50.00"
+        },
+        "moeda": "USD",
+        "ativo": true
+    }
+]

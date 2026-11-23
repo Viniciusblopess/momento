@@ -1,0 +1,217 @@
+[
+    {
+        "_id": "US",
+        "nome": "Estados Unidos",
+        "regiao_id": 1
+    },
+    {
+        "_id": "CA",
+        "nome": "Canadá",
+        "regiao_id": 1
+    },
+    {
+        "_id": "MX",
+        "nome": "México",
+        "regiao_id": 1
+    },
+    {
+        "_id": "AR",
+        "nome": "Argentina",
+        "regiao_id": 2
+    },
+    {
+        "_id": "BR",
+        "nome": "Brasil",
+        "regiao_id": 2
+    },
+    {
+        "_id": "BM",
+        "nome": "Brasil Bruxo",
+        "regiao_id": 9
+    },
+    {
+        "_id": "CL",
+        "nome": "Chile",
+        "regiao_id": 2
+    },
+    {
+        "_id": "CO",
+        "nome": "Colômbia",
+        "regiao_id": 2
+    },
+    {
+        "_id": "PE",
+        "nome": "Peru",
+        "regiao_id": 2
+    },
+    {
+        "_id": "GB",
+        "nome": "Reino Unido",
+        "regiao_id": 3
+    },
+    {
+        "_id": "GM",
+        "nome": "Reino dos Mágos Unidos",
+        "regiao_id": 8
+    },
+    {
+        "_id": "FR",
+        "nome": "França",
+        "regiao_id": 3
+    },
+    {
+        "_id": "FM",
+        "nome": "França Mágica",
+        "regiao_id": 8
+    },
+    {
+        "_id": "DE",
+        "nome": "Alemanha",
+        "regiao_id": 3
+    },
+    {
+        "_id": "IT",
+        "nome": "Itália",
+        "regiao_id": 3
+    },
+    {
+        "_id": "ES",
+        "nome": "Espanha",
+        "regiao_id": 3
+    },
+    {
+        "_id": "PT",
+        "nome": "Portugal",
+        "regiao_id": 3
+    },
+    {
+        "_id": "PM",
+        "nome": "Portugal Bruxo",
+        "regiao_id": 8
+    },
+    {
+        "_id": "NL",
+        "nome": "Países Baixos",
+        "regiao_id": 3
+    },
+    {
+        "_id": "CH",
+        "nome": "Suíça",
+        "regiao_id": 3
+    },
+    {
+        "_id": "SE",
+        "nome": "Suécia",
+        "regiao_id": 3
+    },
+    {
+        "_id": "NO",
+        "nome": "Noruega",
+        "regiao_id": 3
+    },
+    {
+        "_id": "JP",
+        "nome": "Japão",
+        "regiao_id": 4
+    },
+    {
+        "_id": "JM",
+        "nome": "Japão Místico",
+        "regiao_id": 10
+    },
+    {
+        "_id": "CN",
+        "nome": "China",
+        "regiao_id": 4
+    },
+    {
+        "_id": "IN",
+        "nome": "Índia",
+        "regiao_id": 4
+    },
+    {
+        "_id": "SG",
+        "nome": "Singapura",
+        "regiao_id": 4
+    },
+    {
+        "_id": "KR",
+        "nome": "Coreia do Sul",
+        "regiao_id": 4
+    },
+    {
+        "_id": "IL",
+        "nome": "Israel",
+        "regiao_id": 4
+    },
+    {
+        "_id": "EG",
+        "nome": "Egito",
+        "regiao_id": 5
+    },
+    {
+        "_id": "NG",
+        "nome": "Nigéria",
+        "regiao_id": 5
+    },
+    {
+        "_id": "ZA",
+        "nome": "África do Sul",
+        "regiao_id": 5
+    },
+    {
+        "_id": "ZM",
+        "nome": "Zâmbia",
+        "regiao_id": 5
+    },
+    {
+        "_id": "ZW",
+        "nome": "Zimbábue",
+        "regiao_id": 5
+    },
+    {
+        "_id": "AU",
+        "nome": "Austrália",
+        "regiao_id": 6
+    },
+    {
+        "_id": "NZ",
+        "nome": "Nova Zelândia",
+        "regiao_id": 6
+    },
+    {
+        "_id": "KK",
+        "nome": "Krakoa",
+        "regiao_id": 7
+    },
+    {
+        "_id": "LE",
+        "nome": "Latvéria",
+        "regiao_id": 7
+    },
+    {
+        "_id": "MI",
+        "nome": "Markóvia",
+        "regiao_id": 7
+    },
+    {
+        "_id": "QU",
+        "nome": "Qurac",
+        "regiao_id": 7
+    },
+    {
+        "_id": "TY",
+        "nome": "Themyscira",
+        "regiao_id": 7
+    },
+    {
+        "_id": "WA",
+        "nome": "Wakanda",
+        "regiao_id": 7
+    },
+    {
+        "_id": "UM",
+        "nome": "Estados Unidos Arcanos",
+        "regiao_id": 9
+    }
+]

@@ -1,0 +1,1582 @@
+[
+    {
+        "_id": 1300,
+        "nome": "Torre de Paris",
+        "endereco": "Avenue des Sorciers, 42",
+        "cep": "75001",
+        "cidade": "Paris",
+        "estado_provincia": "Île-de-France",
+        "pais_id": "FM",
+        "suprimentos": []
+    },
+    {
+        "_id": 1400,
+        "nome": "Wayne Offices",
+        "endereco": "2014 Jabberwocky Rd",
+        "cep": "26192",
+        "cidade": "Gotham",
+        "estado_provincia": "New York",
+        "pais_id": "US",
+        "suprimentos": [
+            {
+                "_id": 1,
+                "referencia_compra": "PO-1400-01",
+                "nome": "Computadores",
+                "quantidade": 8,
+                "custo_unitario": {
+                    "$numberDecimal": "850.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-01-10T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 2,
+                "referencia_compra": "PO-1400-02",
+                "nome": "Monitores",
+                "quantidade": 15,
+                "custo_unitario": {
+                    "$numberDecimal": "220.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-01-27T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 3,
+                "referencia_compra": "PO-1400-03",
+                "nome": "Teclados",
+                "quantidade": 31,
+                "custo_unitario": {
+                    "$numberDecimal": "32.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-02-13T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 4,
+                "referencia_compra": "PO-1400-04",
+                "nome": "Headsets",
+                "quantidade": 24,
+                "custo_unitario": {
+                    "$numberDecimal": "75.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-03-01T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 5,
+                "referencia_compra": "PO-1400-05",
+                "nome": "Papel",
+                "quantidade": 112,
+                "custo_unitario": {
+                    "$numberDecimal": "6.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-03-18T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 6,
+                "referencia_compra": "PO-1400-06",
+                "nome": "Impressoras",
+                "quantidade": 17,
+                "custo_unitario": {
+                    "$numberDecimal": "240.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-04-04T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 7,
+                "referencia_compra": "PO-1400-07",
+                "nome": "Planners",
+                "quantidade": 38,
+                "custo_unitario": {
+                    "$numberDecimal": "8.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-04-21T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 1500,
+        "nome": "Stark Tower",
+        "endereco": "2011 Interiors Blvd",
+        "cep": "94080",
+        "cidade": "South San Francisco",
+        "estado_provincia": "California",
+        "pais_id": "US",
+        "suprimentos": [
+            {
+                "_id": 8,
+                "referencia_compra": "PO-1500-01",
+                "nome": "Computadores",
+                "quantidade": 15,
+                "custo_unitario": {
+                    "$numberDecimal": "854.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-02-18T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 9,
+                "referencia_compra": "PO-1500-02",
+                "nome": "Monitores",
+                "quantidade": 22,
+                "custo_unitario": {
+                    "$numberDecimal": "224.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-03-06T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 10,
+                "referencia_compra": "PO-1500-03",
+                "nome": "Teclados",
+                "quantidade": 38,
+                "custo_unitario": {
+                    "$numberDecimal": "36.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-03-23T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 11,
+                "referencia_compra": "PO-1500-04",
+                "nome": "Headsets",
+                "quantidade": 31,
+                "custo_unitario": {
+                    "$numberDecimal": "79.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-04-09T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 12,
+                "referencia_compra": "PO-1500-05",
+                "nome": "Papel",
+                "quantidade": 119,
+                "custo_unitario": {
+                    "$numberDecimal": "10.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-04-26T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 13,
+                "referencia_compra": "PO-1500-06",
+                "nome": "Impressoras",
+                "quantidade": 24,
+                "custo_unitario": {
+                    "$numberDecimal": "244.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-05-13T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 14,
+                "referencia_compra": "PO-1500-07",
+                "nome": "Planners",
+                "quantidade": 45,
+                "custo_unitario": {
+                    "$numberDecimal": "12.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-05-30T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 1700,
+        "nome": "Sala Winter",
+        "endereco": "2004 Charade Rd",
+        "cep": "98199",
+        "cidade": "Seattle",
+        "estado_provincia": "Washington",
+        "pais_id": "US",
+        "suprimentos": [
+            {
+                "_id": 15,
+                "referencia_compra": "PO-1700-01",
+                "nome": "Computadores",
+                "quantidade": 22,
+                "custo_unitario": {
+                    "$numberDecimal": "858.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-03-28T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 16,
+                "referencia_compra": "PO-1700-02",
+                "nome": "Monitores",
+                "quantidade": 29,
+                "custo_unitario": {
+                    "$numberDecimal": "228.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-04-14T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 17,
+                "referencia_compra": "PO-1700-03",
+                "nome": "Teclados",
+                "quantidade": 45,
+                "custo_unitario": {
+                    "$numberDecimal": "40.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-05-01T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 18,
+                "referencia_compra": "PO-1700-04",
+                "nome": "Headsets",
+                "quantidade": 38,
+                "custo_unitario": {
+                    "$numberDecimal": "83.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-05-18T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 19,
+                "referencia_compra": "PO-1700-05",
+                "nome": "Papel",
+                "quantidade": 126,
+                "custo_unitario": {
+                    "$numberDecimal": "14.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-06-04T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 20,
+                "referencia_compra": "PO-1700-06",
+                "nome": "Impressoras",
+                "quantidade": 31,
+                "custo_unitario": {
+                    "$numberDecimal": "248.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-06-21T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 21,
+                "referencia_compra": "PO-1700-07",
+                "nome": "Planners",
+                "quantidade": 52,
+                "custo_unitario": {
+                    "$numberDecimal": "16.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-07-08T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 1800,
+        "nome": "Arkham Base",
+        "endereco": "147 Spadina Ave",
+        "cep": "M5V 2L7",
+        "cidade": "Toronto",
+        "estado_provincia": "Ontario",
+        "pais_id": "CA",
+        "suprimentos": [
+            {
+                "_id": 22,
+                "referencia_compra": "PO-1800-01",
+                "nome": "Computadores",
+                "quantidade": 29,
+                "custo_unitario": {
+                    "$numberDecimal": "862.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-05-06T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 23,
+                "referencia_compra": "PO-1800-02",
+                "nome": "Monitores",
+                "quantidade": 36,
+                "custo_unitario": {
+                    "$numberDecimal": "232.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-05-23T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 24,
+                "referencia_compra": "PO-1800-03",
+                "nome": "Teclados",
+                "quantidade": 52,
+                "custo_unitario": {
+                    "$numberDecimal": "44.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-06-09T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 25,
+                "referencia_compra": "PO-1800-04",
+                "nome": "Headsets",
+                "quantidade": 45,
+                "custo_unitario": {
+                    "$numberDecimal": "87.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-06-26T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 26,
+                "referencia_compra": "PO-1800-05",
+                "nome": "Papel",
+                "quantidade": 133,
+                "custo_unitario": {
+                    "$numberDecimal": "18.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-07-13T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 27,
+                "referencia_compra": "PO-1800-06",
+                "nome": "Impressoras",
+                "quantidade": 38,
+                "custo_unitario": {
+                    "$numberDecimal": "252.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-07-30T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 28,
+                "referencia_compra": "PO-1800-07",
+                "nome": "Planners",
+                "quantidade": 21,
+                "custo_unitario": {
+                    "$numberDecimal": "20.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-08-16T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 2400,
+        "nome": "Shuri's Palace",
+        "endereco": "8204 Arthur St",
+        "cep": null,
+        "cidade": "Birnin Zana",
+        "estado_provincia": "Wakanda",
+        "pais_id": "WA",
+        "suprimentos": [
+            {
+                "_id": 29,
+                "referencia_compra": "PO-2400-01",
+                "nome": "Computadores",
+                "quantidade": 36,
+                "custo_unitario": {
+                    "$numberDecimal": "867.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-06-14T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 30,
+                "referencia_compra": "PO-2400-02",
+                "nome": "Monitores",
+                "quantidade": 43,
+                "custo_unitario": {
+                    "$numberDecimal": "237.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-07-01T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 31,
+                "referencia_compra": "PO-2400-03",
+                "nome": "Teclados",
+                "quantidade": 59,
+                "custo_unitario": {
+                    "$numberDecimal": "49.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-07-18T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 32,
+                "referencia_compra": "PO-2400-04",
+                "nome": "Headsets",
+                "quantidade": 52,
+                "custo_unitario": {
+                    "$numberDecimal": "92.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-08-04T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 33,
+                "referencia_compra": "PO-2400-05",
+                "nome": "Papel",
+                "quantidade": 102,
+                "custo_unitario": {
+                    "$numberDecimal": "23.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-08-21T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 34,
+                "referencia_compra": "PO-2400-06",
+                "nome": "Impressoras",
+                "quantidade": 7,
+                "custo_unitario": {
+                    "$numberDecimal": "257.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-09-07T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 35,
+                "referencia_compra": "PO-2400-07",
+                "nome": "Planners",
+                "quantidade": 28,
+                "custo_unitario": {
+                    "$numberDecimal": "25.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-09-24T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 2500,
+        "nome": "Umbrella Corp",
+        "endereco": "Magdalen Centre",
+        "cep": "OX9 9ZB",
+        "cidade": "Oxford",
+        "estado_provincia": "England",
+        "pais_id": "GB",
+        "suprimentos": [
+            {
+                "_id": 36,
+                "referencia_compra": "PO-2500-01",
+                "nome": "Computadores",
+                "quantidade": 43,
+                "custo_unitario": {
+                    "$numberDecimal": "871.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-07-23T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 37,
+                "referencia_compra": "PO-2500-02",
+                "nome": "Monitores",
+                "quantidade": 12,
+                "custo_unitario": {
+                    "$numberDecimal": "241.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-08-09T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 38,
+                "referencia_compra": "PO-2500-03",
+                "nome": "Teclados",
+                "quantidade": 28,
+                "custo_unitario": {
+                    "$numberDecimal": "53.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-08-26T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 39,
+                "referencia_compra": "PO-2500-04",
+                "nome": "Headsets",
+                "quantidade": 21,
+                "custo_unitario": {
+                    "$numberDecimal": "96.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-09-12T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 40,
+                "referencia_compra": "PO-2500-05",
+                "nome": "Papel",
+                "quantidade": 109,
+                "custo_unitario": {
+                    "$numberDecimal": "27.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-09-29T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 41,
+                "referencia_compra": "PO-2500-06",
+                "nome": "Impressoras",
+                "quantidade": 14,
+                "custo_unitario": {
+                    "$numberDecimal": "261.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-10-16T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 42,
+                "referencia_compra": "PO-2500-07",
+                "nome": "Planners",
+                "quantidade": 35,
+                "custo_unitario": {
+                    "$numberDecimal": "29.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-11-02T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 2600,
+        "nome": "Campus de Lisboa",
+        "endereco": "Travessa dos Feitiços, 7",
+        "cep": "1100-001",
+        "cidade": "Lisboa",
+        "estado_provincia": "Lisboa",
+        "pais_id": "PM",
+        "suprimentos": [
+            {
+                "_id": 64,
+                "referencia_compra": "PO-2600-01",
+                "nome": "Computadores",
+                "quantidade": 33,
+                "custo_unitario": {
+                    "$numberDecimal": "888.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-12-26T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 65,
+                "referencia_compra": "PO-2600-02",
+                "nome": "Monitores",
+                "quantidade": 40,
+                "custo_unitario": {
+                    "$numberDecimal": "258.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-01-12T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 66,
+                "referencia_compra": "PO-2600-03",
+                "nome": "Teclados",
+                "quantidade": 56,
+                "custo_unitario": {
+                    "$numberDecimal": "70.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-01-29T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 67,
+                "referencia_compra": "PO-2600-04",
+                "nome": "Headsets",
+                "quantidade": 49,
+                "custo_unitario": {
+                    "$numberDecimal": "113.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-02-15T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 68,
+                "referencia_compra": "PO-2600-05",
+                "nome": "Papel",
+                "quantidade": 137,
+                "custo_unitario": {
+                    "$numberDecimal": "44.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-03-04T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 69,
+                "referencia_compra": "PO-2600-06",
+                "nome": "Impressoras",
+                "quantidade": 4,
+                "custo_unitario": {
+                    "$numberDecimal": "278.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-03-21T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 70,
+                "referencia_compra": "PO-2600-07",
+                "nome": "Planners",
+                "quantidade": 25,
+                "custo_unitario": {
+                    "$numberDecimal": "46.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-04-07T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 2700,
+        "nome": "Archies Mad House",
+        "endereco": "28 Marienplatz",
+        "cep": "80331",
+        "cidade": "Munich",
+        "estado_provincia": "Bavaria",
+        "pais_id": "DE",
+        "suprimentos": [
+            {
+                "_id": 43,
+                "referencia_compra": "PO-2700-01",
+                "nome": "Computadores",
+                "quantidade": 12,
+                "custo_unitario": {
+                    "$numberDecimal": "875.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-08-31T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 44,
+                "referencia_compra": "PO-2700-02",
+                "nome": "Monitores",
+                "quantidade": 19,
+                "custo_unitario": {
+                    "$numberDecimal": "245.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-09-17T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 45,
+                "referencia_compra": "PO-2700-03",
+                "nome": "Teclados",
+                "quantidade": 35,
+                "custo_unitario": {
+                    "$numberDecimal": "57.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-10-04T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 46,
+                "referencia_compra": "PO-2700-04",
+                "nome": "Headsets",
+                "quantidade": 28,
+                "custo_unitario": {
+                    "$numberDecimal": "100.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-10-21T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 47,
+                "referencia_compra": "PO-2700-05",
+                "nome": "Papel",
+                "quantidade": 116,
+                "custo_unitario": {
+                    "$numberDecimal": "31.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-11-07T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 48,
+                "referencia_compra": "PO-2700-06",
+                "nome": "Impressoras",
+                "quantidade": 21,
+                "custo_unitario": {
+                    "$numberDecimal": "265.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-11-24T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 49,
+                "referencia_compra": "PO-2700-07",
+                "nome": "Planners",
+                "quantidade": 42,
+                "custo_unitario": {
+                    "$numberDecimal": "33.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-12-11T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 3900,
+        "nome": "Baxter Building",
+        "endereco": "Excelsior Rd. 7031",
+        "cep": "WC2N 5DU",
+        "cidade": "London",
+        "estado_provincia": "England",
+        "pais_id": "GB",
+        "suprimentos": [
+            {
+                "_id": 50,
+                "referencia_compra": "PO-3900-01",
+                "nome": "Computadores",
+                "quantidade": 19,
+                "custo_unitario": {
+                    "$numberDecimal": "879.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-10-09T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 51,
+                "referencia_compra": "PO-3900-02",
+                "nome": "Monitores",
+                "quantidade": 26,
+                "custo_unitario": {
+                    "$numberDecimal": "249.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-10-26T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 52,
+                "referencia_compra": "PO-3900-03",
+                "nome": "Teclados",
+                "quantidade": 42,
+                "custo_unitario": {
+                    "$numberDecimal": "61.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-11-12T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 53,
+                "referencia_compra": "PO-3900-04",
+                "nome": "Headsets",
+                "quantidade": 35,
+                "custo_unitario": {
+                    "$numberDecimal": "104.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-11-29T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 54,
+                "referencia_compra": "PO-3900-05",
+                "nome": "Papel",
+                "quantidade": 123,
+                "custo_unitario": {
+                    "$numberDecimal": "35.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-12-16T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 55,
+                "referencia_compra": "PO-3900-06",
+                "nome": "Impressoras",
+                "quantidade": 28,
+                "custo_unitario": {
+                    "$numberDecimal": "269.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-01-02T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 56,
+                "referencia_compra": "PO-3900-07",
+                "nome": "Planners",
+                "quantidade": 49,
+                "custo_unitario": {
+                    "$numberDecimal": "37.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-01-19T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 1900,
+        "nome": "House of Mystery",
+        "endereco": "The Trickster Rd. 42",
+        "cep": "NE1 4LP",
+        "cidade": "Newcastle",
+        "estado_provincia": "England",
+        "pais_id": "GB",
+        "suprimentos": [
+            {
+                "_id": 57,
+                "referencia_compra": "PO-1900-01",
+                "nome": "Computadores",
+                "quantidade": 26,
+                "custo_unitario": {
+                    "$numberDecimal": "884.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-11-17T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 58,
+                "referencia_compra": "PO-1900-02",
+                "nome": "Monitores",
+                "quantidade": 33,
+                "custo_unitario": {
+                    "$numberDecimal": "254.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-12-04T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 59,
+                "referencia_compra": "PO-1900-03",
+                "nome": "Teclados",
+                "quantidade": 49,
+                "custo_unitario": {
+                    "$numberDecimal": "66.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2024-12-21T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 60,
+                "referencia_compra": "PO-1900-04",
+                "nome": "Headsets",
+                "quantidade": 42,
+                "custo_unitario": {
+                    "$numberDecimal": "109.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-01-07T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 61,
+                "referencia_compra": "PO-1900-05",
+                "nome": "Papel",
+                "quantidade": 130,
+                "custo_unitario": {
+                    "$numberDecimal": "40.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-01-24T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 62,
+                "referencia_compra": "PO-1900-06",
+                "nome": "Impressoras",
+                "quantidade": 35,
+                "custo_unitario": {
+                    "$numberDecimal": "274.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-02-10T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 63,
+                "referencia_compra": "PO-1900-07",
+                "nome": "Planners",
+                "quantidade": 56,
+                "custo_unitario": {
+                    "$numberDecimal": "42.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-02-27T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 2900,
+        "nome": "Daily Planet Bureau",
+        "endereco": "1 Place du Trocadéro",
+        "cep": "75116",
+        "cidade": "Paris",
+        "estado_provincia": "Île-de-France",
+        "pais_id": "FR",
+        "suprimentos": [
+            {
+                "_id": 78,
+                "referencia_compra": "PO-2900-01",
+                "nome": "Computadores",
+                "quantidade": 9,
+                "custo_unitario": {
+                    "$numberDecimal": "896.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-03-14T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 79,
+                "referencia_compra": "PO-2900-02",
+                "nome": "Monitores",
+                "quantidade": 16,
+                "custo_unitario": {
+                    "$numberDecimal": "266.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-03-31T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 80,
+                "referencia_compra": "PO-2900-03",
+                "nome": "Teclados",
+                "quantidade": 32,
+                "custo_unitario": {
+                    "$numberDecimal": "78.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-04-17T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 81,
+                "referencia_compra": "PO-2900-04",
+                "nome": "Headsets",
+                "quantidade": 25,
+                "custo_unitario": {
+                    "$numberDecimal": "121.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-05-04T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 82,
+                "referencia_compra": "PO-2900-05",
+                "nome": "Papel",
+                "quantidade": 113,
+                "custo_unitario": {
+                    "$numberDecimal": "52.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-05-21T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 83,
+                "referencia_compra": "PO-2900-06",
+                "nome": "Impressoras",
+                "quantidade": 18,
+                "custo_unitario": {
+                    "$numberDecimal": "286.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-06-07T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 84,
+                "referencia_compra": "PO-2900-07",
+                "nome": "Planners",
+                "quantidade": 39,
+                "custo_unitario": {
+                    "$numberDecimal": "54.75"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-06-24T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 2800,
+        "nome": "Verstebona",
+        "endereco": "Av. Sayo Yamamoto, 1000",
+        "cep": "01310-100",
+        "cidade": "São Paulo",
+        "estado_provincia": "São Paulo",
+        "pais_id": "BR",
+        "suprimentos": [
+            {
+                "_id": 71,
+                "referencia_compra": "PO-2800-01",
+                "nome": "Computadores",
+                "quantidade": 40,
+                "custo_unitario": {
+                    "$numberDecimal": "892.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-02-03T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 72,
+                "referencia_compra": "PO-2800-02",
+                "nome": "Monitores",
+                "quantidade": 47,
+                "custo_unitario": {
+                    "$numberDecimal": "262.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-02-20T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 73,
+                "referencia_compra": "PO-2800-03",
+                "nome": "Teclados",
+                "quantidade": 25,
+                "custo_unitario": {
+                    "$numberDecimal": "74.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-03-09T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 74,
+                "referencia_compra": "PO-2800-04",
+                "nome": "Headsets",
+                "quantidade": 18,
+                "custo_unitario": {
+                    "$numberDecimal": "117.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-03-26T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 75,
+                "referencia_compra": "PO-2800-05",
+                "nome": "Papel",
+                "quantidade": 106,
+                "custo_unitario": {
+                    "$numberDecimal": "48.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-04-12T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 76,
+                "referencia_compra": "PO-2800-06",
+                "nome": "Impressoras",
+                "quantidade": 11,
+                "custo_unitario": {
+                    "$numberDecimal": "282.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-04-29T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 77,
+                "referencia_compra": "PO-2800-07",
+                "nome": "Planners",
+                "quantidade": 32,
+                "custo_unitario": {
+                    "$numberDecimal": "50.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-05-16T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 4500,
+        "nome": "Instituto Rio",
+        "endereco": "Alameda dos Magos, 300",
+        "cep": "20000-000",
+        "cidade": "Rio de Janeiro",
+        "estado_provincia": "RJ",
+        "pais_id": "BM",
+        "suprimentos": []
+    },
+    {
+        "_id": 5100,
+        "nome": "Tokyo Lab",
+        "endereco": "1-1 Chiyoda",
+        "cep": "100-0001",
+        "cidade": "Tokyo",
+        "estado_provincia": "Tokyo",
+        "pais_id": "JP",
+        "suprimentos": []
+    },
+    {
+        "_id": 3800,
+        "nome": "Paititi Operations",
+        "endereco": "Lara Lara",
+        "cep": "2000",
+        "cidade": "Paititi",
+        "estado_provincia": "Macchu Pichu",
+        "pais_id": "PE",
+        "suprimentos": []
+    },
+    {
+        "_id": 3100,
+        "nome": "Cape Town Studio",
+        "endereco": "10 Heerengracht St",
+        "cep": "8001",
+        "cidade": "Cape Town",
+        "estado_provincia": "Western Cape",
+        "pais_id": "ZA",
+        "suprimentos": [
+            {
+                "_id": 92,
+                "referencia_compra": "PO-3100-01",
+                "nome": "Computadores",
+                "quantidade": 23,
+                "custo_unitario": {
+                    "$numberDecimal": "905.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-05-31T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 93,
+                "referencia_compra": "PO-3100-02",
+                "nome": "Monitores",
+                "quantidade": 30,
+                "custo_unitario": {
+                    "$numberDecimal": "275.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-06-17T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 94,
+                "referencia_compra": "PO-3100-03",
+                "nome": "Teclados",
+                "quantidade": 46,
+                "custo_unitario": {
+                    "$numberDecimal": "87.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-07-04T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 95,
+                "referencia_compra": "PO-3100-04",
+                "nome": "Headsets",
+                "quantidade": 39,
+                "custo_unitario": {
+                    "$numberDecimal": "130.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-07-21T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 96,
+                "referencia_compra": "PO-3100-05",
+                "nome": "Papel",
+                "quantidade": 127,
+                "custo_unitario": {
+                    "$numberDecimal": "61.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-08-07T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 97,
+                "referencia_compra": "PO-3100-06",
+                "nome": "Impressoras",
+                "quantidade": 32,
+                "custo_unitario": {
+                    "$numberDecimal": "295.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-08-24T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 98,
+                "referencia_compra": "PO-3100-07",
+                "nome": "Planners",
+                "quantidade": 53,
+                "custo_unitario": {
+                    "$numberDecimal": "63.25"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-09-10T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 3200,
+        "nome": "Koboa Koboa",
+        "endereco": "Av. Corrientes 1000",
+        "cep": "C1043",
+        "cidade": "Buenos Aires",
+        "estado_provincia": "Buenos Aires",
+        "pais_id": "AR",
+        "suprimentos": [
+            {
+                "_id": 99,
+                "referencia_compra": "PO-3200-01",
+                "nome": "Computadores",
+                "quantidade": 30,
+                "custo_unitario": {
+                    "$numberDecimal": "909.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-07-09T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 100,
+                "referencia_compra": "PO-3200-02",
+                "nome": "Monitores",
+                "quantidade": 37,
+                "custo_unitario": {
+                    "$numberDecimal": "279.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-07-26T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 101,
+                "referencia_compra": "PO-3200-03",
+                "nome": "Teclados",
+                "quantidade": 53,
+                "custo_unitario": {
+                    "$numberDecimal": "91.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-08-12T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 102,
+                "referencia_compra": "PO-3200-04",
+                "nome": "Headsets",
+                "quantidade": 46,
+                "custo_unitario": {
+                    "$numberDecimal": "134.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-08-29T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 103,
+                "referencia_compra": "PO-3200-05",
+                "nome": "Papel",
+                "quantidade": 134,
+                "custo_unitario": {
+                    "$numberDecimal": "65.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-09-15T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 104,
+                "referencia_compra": "PO-3200-06",
+                "nome": "Impressoras",
+                "quantidade": 39,
+                "custo_unitario": {
+                    "$numberDecimal": "299.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-10-02T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 105,
+                "referencia_compra": "PO-3200-07",
+                "nome": "Planners",
+                "quantidade": 22,
+                "custo_unitario": {
+                    "$numberDecimal": "67.50"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-10-19T00:00:00.000Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": 5000,
+        "nome": "Castelo Principal",
+        "endereco": "Rua do Beco Diagonal, 1",
+        "cep": "HP1 1AA",
+        "cidade": "Hogsmeade",
+        "estado_provincia": "Escócia",
+        "pais_id": "GM",
+        "suprimentos": []
+    },
+    {
+        "_id": 3000,
+        "nome": "Castelo Encantado",
+        "endereco": "Ghibli Shrine Rd, 5",
+        "cep": "603-8047",
+        "cidade": "Kyoto",
+        "estado_provincia": "Kyoto",
+        "pais_id": "JM",
+        "suprimentos": [
+            {
+                "_id": 85,
+                "referencia_compra": "PO-3000-01",
+                "nome": "Computadores",
+                "quantidade": 16,
+                "custo_unitario": {
+                    "$numberDecimal": "901.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-04-22T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 86,
+                "referencia_compra": "PO-3000-02",
+                "nome": "Monitores",
+                "quantidade": 23,
+                "custo_unitario": {
+                    "$numberDecimal": "271.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-05-09T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 87,
+                "referencia_compra": "PO-3000-03",
+                "nome": "Teclados",
+                "quantidade": 39,
+                "custo_unitario": {
+                    "$numberDecimal": "83.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-05-26T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 88,
+                "referencia_compra": "PO-3000-04",
+                "nome": "Headsets",
+                "quantidade": 32,
+                "custo_unitario": {
+                    "$numberDecimal": "126.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-06-12T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 89,
+                "referencia_compra": "PO-3000-05",
+                "nome": "Papel",
+                "quantidade": 120,
+                "custo_unitario": {
+                    "$numberDecimal": "57.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-06-29T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 90,
+                "referencia_compra": "PO-3000-06",
+                "nome": "Impressoras",
+                "quantidade": 25,
+                "custo_unitario": {
+                    "$numberDecimal": "291.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-07-16T00:00:00.000Z"
+                }
+            },
+            {
+                "_id": 91,
+                "referencia_compra": "PO-3000-07",
+                "nome": "Planners",
+                "quantidade": 46,
+                "custo_unitario": {
+                    "$numberDecimal": "59.00"
+                },
+                "moeda": "USD",
+                "data_compra": {
+                    "$date": "2025-08-02T00:00:00.000Z"
+                }
+            }
+        ]
+    }
+]

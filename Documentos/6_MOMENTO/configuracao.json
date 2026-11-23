@@ -1,0 +1,617 @@
+[
+    {
+        "nome": "escritorios",
+        "schema": {
+            "bsonType": "object",
+            "required": [
+                "_id",
+                "nome",
+                "endereco",
+                "cep",
+                "cidade",
+                "estado_provincia",
+                "pais_id",
+                "suprimentos"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "bsonType": "int"
+                },
+                "nome": {
+                    "bsonType": "string"
+                },
+                "endereco": {
+                    "bsonType": "string"
+                },
+                "cep": {
+                    "bsonType": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "cidade": {
+                    "bsonType": "string"
+                },
+                "estado_provincia": {
+                    "bsonType": "string"
+                },
+                "pais_id": {
+                    "bsonType": "string"
+                },
+                "suprimentos": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "required": [
+                            "_id",
+                            "referencia_compra",
+                            "nome",
+                            "quantidade",
+                            "custo_unitario",
+                            "moeda",
+                            "data_compra"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "_id": {
+                                "bsonType": "int"
+                            },
+                            "referencia_compra": {
+                                "bsonType": "string"
+                            },
+                            "nome": {
+                                "bsonType": "string"
+                            },
+                            "quantidade": {
+                                "bsonType": "int",
+                                "minimum": 1
+                            },
+                            "custo_unitario": {
+                                "bsonType": "decimal",
+                                "minimum": {
+                                    "$numberDecimal": "0.00"
+                                }
+                            },
+                            "moeda": {
+                                "bsonType": "string"
+                            },
+                            "data_compra": {
+                                "bsonType": "date"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indices": [
+            [
+                {
+                    "pais_id": 1
+                },
+                {}
+            ]
+        ]
+    },
+    {
+        "nome": "departamentos",
+        "schema": {
+            "bsonType": "object",
+            "required": [
+                "_id",
+                "nome",
+                "educacional",
+                "escritorio_id"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "bsonType": "int"
+                },
+                "nome": {
+                    "bsonType": "string"
+                },
+                "educacional": {
+                    "bsonType": "bool"
+                },
+                "escritorio_id": {
+                    "bsonType": [
+                        "int",
+                        "null"
+                    ]
+                }
+            }
+        },
+        "indices": [
+            [
+                {
+                    "escritorio_id": 1
+                },
+                {}
+            ]
+        ]
+    },
+    {
+        "nome": "funcionarios",
+        "schema": {
+            "bsonType": "object",
+            "required": [
+                "_id",
+                "primeiro_nome",
+                "sobrenome",
+                "email",
+                "telefone",
+                "data_contratacao",
+                "cargo_id",
+                "salario",
+                "moeda_salario",
+                "gerente_id",
+                "departamento_id",
+                "status_funcionario_id",
+                "dependentes"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "bsonType": "int"
+                },
+                "primeiro_nome": {
+                    "bsonType": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "sobrenome": {
+                    "bsonType": "string"
+                },
+                "email": {
+                    "bsonType": "string"
+                },
+                "telefone": {
+                    "bsonType": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "data_contratacao": {
+                    "bsonType": "date"
+                },
+                "cargo_id": {
+                    "bsonType": "int"
+                },
+                "salario": {
+                    "bsonType": "decimal",
+                    "minimum": {
+                        "$numberDecimal": "0.00"
+                    }
+                },
+                "moeda_salario": {
+                    "bsonType": "string"
+                },
+                "gerente_id": {
+                    "bsonType": [
+                        "int",
+                        "null"
+                    ]
+                },
+                "departamento_id": {
+                    "bsonType": "int"
+                },
+                "status_funcionario_id": {
+                    "bsonType": "int"
+                },
+                "dependentes": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "required": [
+                            "_id",
+                            "primeiro_nome",
+                            "sobrenome",
+                            "relacionamento"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "_id": {
+                                "bsonType": "int"
+                            },
+                            "primeiro_nome": {
+                                "bsonType": [
+                                    "string",
+                                    "null"
+                                ]
+                            },
+                            "sobrenome": {
+                                "bsonType": "string"
+                            },
+                            "relacionamento": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "indices": [
+            [
+                {
+                    "email": 1
+                },
+                {
+                    "unique": true
+                }
+            ],
+            [
+                {
+                    "departamento_id": 1
+                },
+                {}
+            ],
+            [
+                {
+                    "cargo_id": 1
+                },
+                {}
+            ],
+            [
+                {
+                    "gerente_id": 1
+                },
+                {}
+            ]
+        ]
+    },
+    {
+        "nome": "vendas",
+        "schema": {
+            "bsonType": "object",
+            "required": [
+                "_id",
+                "venda_id",
+                "referencia_origem",
+                "numero_item",
+                "produto_id",
+                "quantidade",
+                "preco_unitario",
+                "moeda",
+                "source_row_id",
+                "data_venda",
+                "funcionario_id",
+                "canal_venda_id",
+                "canal",
+                "status_venda_id",
+                "status_venda"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "bsonType": "int"
+                },
+                "venda_id": {
+                    "bsonType": "int"
+                },
+                "referencia_origem": {
+                    "bsonType": "string"
+                },
+                "numero_item": {
+                    "bsonType": "int"
+                },
+                "produto_id": {
+                    "bsonType": "int"
+                },
+                "quantidade": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "preco_unitario": {
+                    "bsonType": "decimal",
+                    "minimum": {
+                        "$numberDecimal": "0.00"
+                    }
+                },
+                "moeda": {
+                    "bsonType": "string"
+                },
+                "source_row_id": {
+                    "bsonType": [
+                        "int",
+                        "null"
+                    ]
+                },
+                "data_venda": {
+                    "bsonType": "date"
+                },
+                "funcionario_id": {
+                    "bsonType": "int"
+                },
+                "canal_venda_id": {
+                    "bsonType": "int"
+                },
+                "canal": {
+                    "bsonType": "string"
+                },
+                "status_venda_id": {
+                    "bsonType": "int"
+                },
+                "status_venda": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "indices": [
+            [
+                {
+                    "funcionario_id": 1,
+                    "data_venda": -1
+                },
+                {}
+            ],
+            [
+                {
+                    "produto_id": 1
+                },
+                {}
+            ],
+            [
+                {
+                    "data_venda": -1
+                },
+                {}
+            ]
+        ]
+    },
+    {
+        "nome": "log",
+        "schema": {
+            "bsonType": "object",
+            "required": [
+                "_id",
+                "acao",
+                "data",
+                "modulo_id",
+                "modulo",
+                "status_id",
+                "status",
+                "origem",
+                "detalhes",
+                "funcionario_id",
+                "autor"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "bsonType": "int"
+                },
+                "acao": {
+                    "bsonType": "string"
+                },
+                "data": {
+                    "bsonType": "date"
+                },
+                "modulo_id": {
+                    "bsonType": "int"
+                },
+                "modulo": {
+                    "bsonType": "string"
+                },
+                "status_id": {
+                    "bsonType": "int"
+                },
+                "status": {
+                    "bsonType": "string",
+                    "enum": [
+                        "REGISTRADO",
+                        "SUCESSO",
+                        "FALHA",
+                        "BLOQUEADO"
+                    ]
+                },
+                "origem": {
+                    "bsonType": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "detalhes": {
+                    "bsonType": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "funcionario_id": {
+                    "bsonType": "int"
+                },
+                "autor": {
+                    "bsonType": "object",
+                    "required": [
+                        "primeiro_nome",
+                        "sobrenome",
+                        "email"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "primeiro_nome": {
+                            "bsonType": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "sobrenome": {
+                            "bsonType": "string"
+                        },
+                        "email": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "indices": [
+            [
+                {
+                    "funcionario_id": 1,
+                    "data": -1
+                },
+                {}
+            ],
+            [
+                {
+                    "status": 1,
+                    "data": -1
+                },
+                {}
+            ],
+            [
+                {
+                    "modulo": 1,
+                    "data": -1
+                },
+                {}
+            ],
+            [
+                {
+                    "data": -1
+                },
+                {}
+            ]
+        ]
+    },
+    {
+        "nome": "produtos",
+        "schema": {
+            "bsonType": "object",
+            "required": [
+                "_id",
+                "sku",
+                "nome",
+                "categoria_id",
+                "categoria",
+                "preco_unitario",
+                "moeda",
+                "ativo"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "bsonType": "int"
+                },
+                "sku": {
+                    "bsonType": "string"
+                },
+                "nome": {
+                    "bsonType": "string"
+                },
+                "categoria_id": {
+                    "bsonType": "int"
+                },
+                "categoria": {
+                    "bsonType": "string"
+                },
+                "preco_unitario": {
+                    "bsonType": "decimal",
+                    "minimum": {
+                        "$numberDecimal": "0.00"
+                    }
+                },
+                "moeda": {
+                    "bsonType": "string"
+                },
+                "ativo": {
+                    "bsonType": "bool"
+                }
+            }
+        },
+        "indices": []
+    },
+    {
+        "nome": "paises",
+        "schema": {
+            "bsonType": "object",
+            "required": [
+                "_id",
+                "nome",
+                "regiao_id"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "bsonType": "string"
+                },
+                "nome": {
+                    "bsonType": "string"
+                },
+                "regiao_id": {
+                    "bsonType": "int"
+                }
+            }
+        },
+        "indices": [
+            [
+                {
+                    "regiao_id": 1
+                },
+                {}
+            ]
+        ]
+    },
+    {
+        "nome": "regioes",
+        "schema": {
+            "bsonType": "object",
+            "required": [
+                "_id",
+                "nome"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "bsonType": "int"
+                },
+                "nome": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "indices": []
+    },
+    {
+        "nome": "cargos",
+        "schema": {
+            "bsonType": "object",
+            "required": [
+                "_id",
+                "nome",
+                "salario_minimo",
+                "salario_maximo"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "bsonType": "int"
+                },
+                "nome": {
+                    "bsonType": "string"
+                },
+                "salario_minimo": {
+                    "bsonType": [
+                        "decimal",
+                        "null"
+                    ],
+                    "minimum": {
+                        "$numberDecimal": "0.00"
+                    }
+                },
+                "salario_maximo": {
+                    "bsonType": [
+                        "decimal",
+                        "null"
+                    ],
+                    "minimum": {
+                        "$numberDecimal": "0.00"
+                    }
+                }
+            }
+        },
+        "indices": []
+    }
+]

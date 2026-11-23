@@ -1,0 +1,42 @@
+[
+    {
+        "_id": 1,
+        "nome": "América do Norte"
+    },
+    {
+        "_id": 2,
+        "nome": "América do Sul"
+    },
+    {
+        "_id": 3,
+        "nome": "Europa"
+    },
+    {
+        "_id": 4,
+        "nome": "Ásia"
+    },
+    {
+        "_id": 5,
+        "nome": "África"
+    },
+    {
+        "_id": 6,
+        "nome": "Oceania"
+    },
+    {
+        "_id": 7,
+        "nome": "Universos"
+    },
+    {
+        "_id": 8,
+        "nome": "Europa Mágica"
+    },
+    {
+        "_id": 9,
+        "nome": "Américas Encantadas"
+    },
+    {
+        "_id": 10,
+        "nome": "Ásia Mística"
+    }
+]

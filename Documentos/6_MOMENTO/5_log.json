@@ -1,0 +1,1522 @@
+[
+    {
+        "_id": 1,
+        "acao": "Consultou catálogo",
+        "data": {
+            "$date": "2024-01-04T09:13:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-02",
+        "detalhes": "Evento de demonstração 001",
+        "funcionario_id": 107,
+        "autor": {
+            "primeiro_nome": "Diana",
+            "sobrenome": "Lorentz",
+            "email": "diana.lorentz@momento.org"
+        }
+    },
+    {
+        "_id": 2,
+        "acao": "Exportou relatório",
+        "data": {
+            "$date": "2024-01-07T10:26:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-03",
+        "detalhes": "Evento de demonstração 002",
+        "funcionario_id": 114,
+        "autor": {
+            "primeiro_nome": "Den",
+            "sobrenome": "Raphaely",
+            "email": "den.raphaely@momento.org"
+        }
+    },
+    {
+        "_id": 3,
+        "acao": "Atualizou inventário",
+        "data": {
+            "$date": "2024-01-10T11:39:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-04",
+        "detalhes": "Evento de demonstração 003",
+        "funcionario_id": 121,
+        "autor": {
+            "primeiro_nome": "Adam",
+            "sobrenome": "Fripp",
+            "email": "adam.fripp@momento.org"
+        }
+    },
+    {
+        "_id": 4,
+        "acao": "Solicitou compra",
+        "data": {
+            "$date": "2024-01-13T12:52:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-05",
+        "detalhes": "Evento de demonstração 004",
+        "funcionario_id": 128,
+        "autor": {
+            "primeiro_nome": "Kimberly",
+            "sobrenome": "Grant",
+            "email": "kimberly.grant@momento.org"
+        }
+    },
+    {
+        "_id": 5,
+        "acao": "Revisou permissões",
+        "data": {
+            "$date": "2024-01-16T13:05:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-06",
+        "detalhes": "Evento de demonstração 005",
+        "funcionario_id": 135,
+        "autor": {
+            "primeiro_nome": "Susan",
+            "sobrenome": "Storm",
+            "email": "susan.storm@momento.org"
+        }
+    },
+    {
+        "_id": 6,
+        "acao": "Logout",
+        "data": {
+            "$date": "2024-01-19T14:18:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-07",
+        "detalhes": "Evento de demonstração 006",
+        "funcionario_id": 142,
+        "autor": {
+            "primeiro_nome": "Leia",
+            "sobrenome": "Organa",
+            "email": "leia.organa@momento.org"
+        }
+    },
+    {
+        "_id": 7,
+        "acao": "Falha de autenticação",
+        "data": {
+            "$date": "2024-01-22T15:31:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-08",
+        "detalhes": "Evento de demonstração 007",
+        "funcionario_id": 149,
+        "autor": {
+            "primeiro_nome": "Clint",
+            "sobrenome": "Barton",
+            "email": "clint.barton@momento.org"
+        }
+    },
+    {
+        "_id": 8,
+        "acao": "Login",
+        "data": {
+            "$date": "2024-01-25T16:44:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-09",
+        "detalhes": "Evento de demonstração 008",
+        "funcionario_id": 156,
+        "autor": {
+            "primeiro_nome": "Rogue",
+            "sobrenome": "LeBeau",
+            "email": "rogue.lebeau@momento.org"
+        }
+    },
+    {
+        "_id": 9,
+        "acao": "Consultou catálogo",
+        "data": {
+            "$date": "2024-01-28T17:57:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-10",
+        "detalhes": "Evento de demonstração 009",
+        "funcionario_id": 163,
+        "autor": {
+            "primeiro_nome": "Ravi",
+            "sobrenome": "Shah",
+            "email": "ravi.shah@momento.org"
+        }
+    },
+    {
+        "_id": 10,
+        "acao": "Exportou relatório",
+        "data": {
+            "$date": "2024-01-31T08:10:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-11",
+        "detalhes": "Evento de demonstração 010",
+        "funcionario_id": 170,
+        "autor": {
+            "primeiro_nome": "Noah",
+            "sobrenome": "Kim",
+            "email": "noah.kim@momento.org"
+        }
+    },
+    {
+        "_id": 11,
+        "acao": "Atualizou inventário",
+        "data": {
+            "$date": "2024-02-03T09:23:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-12",
+        "detalhes": "Evento de demonstração 011",
+        "funcionario_id": 105,
+        "autor": {
+            "primeiro_nome": "David",
+            "sobrenome": "Austin",
+            "email": "david.austin@momento.org"
+        }
+    },
+    {
+        "_id": 12,
+        "acao": "Solicitou compra",
+        "data": {
+            "$date": "2024-02-06T10:36:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-01",
+        "detalhes": "Evento de demonstração 012",
+        "funcionario_id": 112,
+        "autor": {
+            "primeiro_nome": "Jose Manuel",
+            "sobrenome": "Urman",
+            "email": "jose.manuel.urman@momento.org"
+        }
+    },
+    {
+        "_id": 13,
+        "acao": "Revisou permissões",
+        "data": {
+            "$date": "2024-02-09T11:49:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-02",
+        "detalhes": "Evento de demonstração 013",
+        "funcionario_id": 119,
+        "autor": {
+            "primeiro_nome": "Karen",
+            "sobrenome": "Colmenares",
+            "email": "karen.colmenares@momento.org"
+        }
+    },
+    {
+        "_id": 14,
+        "acao": "Logout",
+        "data": {
+            "$date": "2024-02-12T12:02:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-03",
+        "detalhes": "Evento de demonstração 014",
+        "funcionario_id": 126,
+        "autor": {
+            "primeiro_nome": "Jonathon",
+            "sobrenome": "Taylor",
+            "email": "jonathon.taylor@momento.org"
+        }
+    },
+    {
+        "_id": 15,
+        "acao": "Falha de autenticação",
+        "data": {
+            "$date": "2024-02-15T13:15:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-04",
+        "detalhes": "Evento de demonstração 015",
+        "funcionario_id": 133,
+        "autor": {
+            "primeiro_nome": "Hermann",
+            "sobrenome": "Baer",
+            "email": "hermann.baer@momento.org"
+        }
+    },
+    {
+        "_id": 16,
+        "acao": "Login",
+        "data": {
+            "$date": "2024-02-18T14:28:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-05",
+        "detalhes": "Evento de demonstração 016",
+        "funcionario_id": 140,
+        "autor": {
+            "primeiro_nome": "Shuri",
+            "sobrenome": "Udaku",
+            "email": "shuri.udaku@momento.org"
+        }
+    },
+    {
+        "_id": 17,
+        "acao": "Consultou catálogo",
+        "data": {
+            "$date": "2024-02-21T15:41:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-06",
+        "detalhes": "Evento de demonstração 017",
+        "funcionario_id": 147,
+        "autor": {
+            "primeiro_nome": "Carol",
+            "sobrenome": "Danvers",
+            "email": "carol.danvers@momento.org"
+        }
+    },
+    {
+        "_id": 18,
+        "acao": "Exportou relatório",
+        "data": {
+            "$date": "2024-02-24T16:54:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-07",
+        "detalhes": "Evento de demonstração 018",
+        "funcionario_id": 154,
+        "autor": {
+            "primeiro_nome": "Victor",
+            "sobrenome": "Stone",
+            "email": "victor.stone@momento.org"
+        }
+    },
+    {
+        "_id": 19,
+        "acao": "Atualizou inventário",
+        "data": {
+            "$date": "2024-02-27T17:07:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-08",
+        "detalhes": "Evento de demonstração 019",
+        "funcionario_id": 161,
+        "autor": {
+            "primeiro_nome": "Nia",
+            "sobrenome": "Nal",
+            "email": "nia.nal@momento.org"
+        }
+    },
+    {
+        "_id": 20,
+        "acao": "Solicitou compra",
+        "data": {
+            "$date": "2024-03-01T08:20:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-09",
+        "detalhes": "Evento de demonstração 020",
+        "funcionario_id": 168,
+        "autor": {
+            "primeiro_nome": "Rafael",
+            "sobrenome": "Santos",
+            "email": "rafael.santos@momento.org"
+        }
+    },
+    {
+        "_id": 21,
+        "acao": "Revisou permissões",
+        "data": {
+            "$date": "2024-03-04T09:33:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-10",
+        "detalhes": "Evento de demonstração 021",
+        "funcionario_id": 103,
+        "autor": {
+            "primeiro_nome": "Alexander",
+            "sobrenome": "Hunold",
+            "email": "alexander.hunold@momento.org"
+        }
+    },
+    {
+        "_id": 22,
+        "acao": "Logout",
+        "data": {
+            "$date": "2024-03-07T10:46:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-11",
+        "detalhes": "Evento de demonstração 022",
+        "funcionario_id": 110,
+        "autor": {
+            "primeiro_nome": "John",
+            "sobrenome": "Chen",
+            "email": "john.chen@momento.org"
+        }
+    },
+    {
+        "_id": 23,
+        "acao": "Falha de autenticação",
+        "data": {
+            "$date": "2024-03-10T11:59:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-12",
+        "detalhes": "Evento de demonstração 023",
+        "funcionario_id": 117,
+        "autor": {
+            "primeiro_nome": "Sigal",
+            "sobrenome": "Tobias",
+            "email": "sigal.tobias@momento.org"
+        }
+    },
+    {
+        "_id": 24,
+        "acao": "Login",
+        "data": {
+            "$date": "2024-03-13T12:12:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-01",
+        "detalhes": "Evento de demonstração 024",
+        "funcionario_id": 124,
+        "autor": {
+            "primeiro_nome": "John",
+            "sobrenome": "Russell",
+            "email": "john.russell@momento.org"
+        }
+    },
+    {
+        "_id": 25,
+        "acao": "Consultou catálogo",
+        "data": {
+            "$date": "2024-03-16T13:25:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-02",
+        "detalhes": "Evento de demonstração 025",
+        "funcionario_id": 131,
+        "autor": {
+            "primeiro_nome": "Pat",
+            "sobrenome": "Ferreira",
+            "email": "pat.ferreira@momento.org"
+        }
+    },
+    {
+        "_id": 26,
+        "acao": "Exportou relatório",
+        "data": {
+            "$date": "2024-03-19T14:38:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-03",
+        "detalhes": "Evento de demonstração 026",
+        "funcionario_id": 138,
+        "autor": {
+            "primeiro_nome": "Dick",
+            "sobrenome": "Grayson",
+            "email": "dick.grayson@momento.org"
+        }
+    },
+    {
+        "_id": 27,
+        "acao": "Atualizou inventário",
+        "data": {
+            "$date": "2024-03-22T15:51:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-04",
+        "detalhes": "Evento de demonstração 027",
+        "funcionario_id": 145,
+        "autor": {
+            "primeiro_nome": "Miles",
+            "sobrenome": "Morales",
+            "email": "miles.morales@momento.org"
+        }
+    },
+    {
+        "_id": 28,
+        "acao": "Solicitou compra",
+        "data": {
+            "$date": "2024-03-25T16:04:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-05",
+        "detalhes": "Evento de demonstração 028",
+        "funcionario_id": 152,
+        "autor": {
+            "primeiro_nome": "Barry",
+            "sobrenome": "Allen",
+            "email": "barry.allen@momento.org"
+        }
+    },
+    {
+        "_id": 29,
+        "acao": "Revisou permissões",
+        "data": {
+            "$date": "2024-03-28T17:17:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-06",
+        "detalhes": "Evento de demonstração 029",
+        "funcionario_id": 159,
+        "autor": {
+            "primeiro_nome": "Scott",
+            "sobrenome": "Summers",
+            "email": "scott.summers@momento.org"
+        }
+    },
+    {
+        "_id": 30,
+        "acao": "Logout",
+        "data": {
+            "$date": "2024-03-31T08:30:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-07",
+        "detalhes": "Evento de demonstração 030",
+        "funcionario_id": 166,
+        "autor": {
+            "primeiro_nome": "Ana",
+            "sobrenome": "Costa",
+            "email": "ana.costa@momento.org"
+        }
+    },
+    {
+        "_id": 31,
+        "acao": "Falha de autenticação",
+        "data": {
+            "$date": "2024-04-03T09:43:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-08",
+        "detalhes": "Evento de demonstração 031",
+        "funcionario_id": 101,
+        "autor": {
+            "primeiro_nome": "Neena",
+            "sobrenome": "Kochhar",
+            "email": "neena.kochhar@momento.org"
+        }
+    },
+    {
+        "_id": 32,
+        "acao": "Login",
+        "data": {
+            "$date": "2024-04-06T10:56:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-09",
+        "detalhes": "Evento de demonstração 032",
+        "funcionario_id": 108,
+        "autor": {
+            "primeiro_nome": "Nancy",
+            "sobrenome": "Constantine",
+            "email": "nancy.constantine@momento.org"
+        }
+    },
+    {
+        "_id": 33,
+        "acao": "Consultou catálogo",
+        "data": {
+            "$date": "2024-04-09T11:09:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-10",
+        "detalhes": "Evento de demonstração 033",
+        "funcionario_id": 115,
+        "autor": {
+            "primeiro_nome": "Norman",
+            "sobrenome": "Osborn",
+            "email": "norman.osborn@momento.org"
+        }
+    },
+    {
+        "_id": 34,
+        "acao": "Exportou relatório",
+        "data": {
+            "$date": "2024-04-12T12:22:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-11",
+        "detalhes": "Evento de demonstração 034",
+        "funcionario_id": 122,
+        "autor": {
+            "primeiro_nome": "Payam",
+            "sobrenome": "Kaufling",
+            "email": "payam.kaufling@momento.org"
+        }
+    },
+    {
+        "_id": 35,
+        "acao": "Atualizou inventário",
+        "data": {
+            "$date": "2024-04-15T13:35:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-12",
+        "detalhes": "Evento de demonstração 035",
+        "funcionario_id": 129,
+        "autor": {
+            "primeiro_nome": "Jennifer",
+            "sobrenome": "Whalen",
+            "email": "jennifer.whalen@momento.org"
+        }
+    },
+    {
+        "_id": 36,
+        "acao": "Solicitou compra",
+        "data": {
+            "$date": "2024-04-18T14:48:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-01",
+        "detalhes": "Evento de demonstração 036",
+        "funcionario_id": 136,
+        "autor": {
+            "primeiro_nome": "Lucius",
+            "sobrenome": "Fox",
+            "email": "lucius.fox@momento.org"
+        }
+    },
+    {
+        "_id": 37,
+        "acao": "Revisou permissões",
+        "data": {
+            "$date": "2024-04-21T15:01:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-02",
+        "detalhes": "Evento de demonstração 037",
+        "funcionario_id": 143,
+        "autor": {
+            "primeiro_nome": "Spock",
+            "sobrenome": "Sarek",
+            "email": "spock.sarek@momento.org"
+        }
+    },
+    {
+        "_id": 38,
+        "acao": "Logout",
+        "data": {
+            "$date": "2024-04-24T16:14:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-03",
+        "detalhes": "Evento de demonstração 038",
+        "funcionario_id": 150,
+        "autor": {
+            "primeiro_nome": "Barbara",
+            "sobrenome": "Gordon",
+            "email": "barbara.gordon@momento.org"
+        }
+    },
+    {
+        "_id": 39,
+        "acao": "Falha de autenticação",
+        "data": {
+            "$date": "2024-04-27T17:27:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-04",
+        "detalhes": "Evento de demonstração 039",
+        "funcionario_id": 157,
+        "autor": {
+            "primeiro_nome": "Ororo",
+            "sobrenome": "Munroe",
+            "email": "ororo.munroe@momento.org"
+        }
+    },
+    {
+        "_id": 40,
+        "acao": "Login",
+        "data": {
+            "$date": "2024-04-30T08:40:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-05",
+        "detalhes": "Evento de demonstração 040",
+        "funcionario_id": 164,
+        "autor": {
+            "primeiro_nome": "Elena",
+            "sobrenome": "Rossi",
+            "email": "elena.rossi@momento.org"
+        }
+    },
+    {
+        "_id": 41,
+        "acao": "Consultou catálogo",
+        "data": {
+            "$date": "2024-05-03T09:53:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-06",
+        "detalhes": "Evento de demonstração 041",
+        "funcionario_id": 171,
+        "autor": {
+            "primeiro_nome": "Yuki",
+            "sobrenome": "Tanaka",
+            "email": "yuki.tanaka@momento.org"
+        }
+    },
+    {
+        "_id": 42,
+        "acao": "Exportou relatório",
+        "data": {
+            "$date": "2024-05-06T10:06:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-07",
+        "detalhes": "Evento de demonstração 042",
+        "funcionario_id": 106,
+        "autor": {
+            "primeiro_nome": "Valli",
+            "sobrenome": "Stark",
+            "email": "valli.stark@momento.org"
+        }
+    },
+    {
+        "_id": 43,
+        "acao": "Atualizou inventário",
+        "data": {
+            "$date": "2024-05-09T11:19:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-08",
+        "detalhes": "Evento de demonstração 043",
+        "funcionario_id": 113,
+        "autor": {
+            "primeiro_nome": "Luis",
+            "sobrenome": "Popp",
+            "email": "luis.popp@momento.org"
+        }
+    },
+    {
+        "_id": 44,
+        "acao": "Solicitou compra",
+        "data": {
+            "$date": "2024-05-12T12:32:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-09",
+        "detalhes": "Evento de demonstração 044",
+        "funcionario_id": 120,
+        "autor": {
+            "primeiro_nome": "Matthew",
+            "sobrenome": "Weiss",
+            "email": "matthew.weiss@momento.org"
+        }
+    },
+    {
+        "_id": 45,
+        "acao": "Revisou permissões",
+        "data": {
+            "$date": "2024-05-15T13:45:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-10",
+        "detalhes": "Evento de demonstração 045",
+        "funcionario_id": 127,
+        "autor": {
+            "primeiro_nome": "Jack",
+            "sobrenome": "Livingston",
+            "email": "jack.livingston@momento.org"
+        }
+    },
+    {
+        "_id": 46,
+        "acao": "Logout",
+        "data": {
+            "$date": "2024-05-18T14:58:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-11",
+        "detalhes": "Evento de demonstração 046",
+        "funcionario_id": 134,
+        "autor": {
+            "primeiro_nome": "Shelley",
+            "sobrenome": "Higgins",
+            "email": "shelley.higgins@momento.org"
+        }
+    },
+    {
+        "_id": 47,
+        "acao": "Falha de autenticação",
+        "data": {
+            "$date": "2024-05-21T15:11:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-12",
+        "detalhes": "Evento de demonstração 047",
+        "funcionario_id": 141,
+        "autor": {
+            "primeiro_nome": "Hermione",
+            "sobrenome": "Granger",
+            "email": "hermione.granger@momento.org"
+        }
+    },
+    {
+        "_id": 48,
+        "acao": "Login",
+        "data": {
+            "$date": "2024-05-24T16:24:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-01",
+        "detalhes": "Evento de demonstração 048",
+        "funcionario_id": 148,
+        "autor": {
+            "primeiro_nome": "Natasha",
+            "sobrenome": "Romanoff",
+            "email": "natasha.romanoff@momento.org"
+        }
+    },
+    {
+        "_id": 49,
+        "acao": "Consultou catálogo",
+        "data": {
+            "$date": "2024-05-27T17:37:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-02",
+        "detalhes": "Evento de demonstração 049",
+        "funcionario_id": 155,
+        "autor": {
+            "primeiro_nome": "Logan",
+            "sobrenome": "Howlett",
+            "email": "logan.howlett@momento.org"
+        }
+    },
+    {
+        "_id": 50,
+        "acao": "Exportou relatório",
+        "data": {
+            "$date": "2024-05-30T08:50:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-03",
+        "detalhes": "Evento de demonstração 050",
+        "funcionario_id": 162,
+        "autor": {
+            "primeiro_nome": "Mina",
+            "sobrenome": "Harker",
+            "email": "mina.harker@momento.org"
+        }
+    },
+    {
+        "_id": 51,
+        "acao": "Atualizou inventário",
+        "data": {
+            "$date": "2024-06-02T09:03:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-04",
+        "detalhes": "Evento de demonstração 051",
+        "funcionario_id": 169,
+        "autor": {
+            "primeiro_nome": "Beatriz",
+            "sobrenome": "Lima",
+            "email": "beatriz.lima@momento.org"
+        }
+    },
+    {
+        "_id": 52,
+        "acao": "Solicitou compra",
+        "data": {
+            "$date": "2024-06-05T10:16:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-05",
+        "detalhes": "Evento de demonstração 052",
+        "funcionario_id": 104,
+        "autor": {
+            "primeiro_nome": "Bruce",
+            "sobrenome": "Ernst",
+            "email": "bruce.ernst@momento.org"
+        }
+    },
+    {
+        "_id": 53,
+        "acao": "Revisou permissões",
+        "data": {
+            "$date": "2024-06-08T11:29:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-06",
+        "detalhes": "Evento de demonstração 053",
+        "funcionario_id": 111,
+        "autor": {
+            "primeiro_nome": "Ismael",
+            "sobrenome": "Sciarra",
+            "email": "ismael.sciarra@momento.org"
+        }
+    },
+    {
+        "_id": 54,
+        "acao": "Logout",
+        "data": {
+            "$date": "2024-06-11T12:42:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-07",
+        "detalhes": "Evento de demonstração 054",
+        "funcionario_id": 118,
+        "autor": {
+            "primeiro_nome": "Guy",
+            "sobrenome": "Himuro",
+            "email": "guy.himuro@momento.org"
+        }
+    },
+    {
+        "_id": 55,
+        "acao": "Falha de autenticação",
+        "data": {
+            "$date": "2024-06-14T13:55:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-08",
+        "detalhes": "Evento de demonstração 055",
+        "funcionario_id": 125,
+        "autor": {
+            "primeiro_nome": "Karen",
+            "sobrenome": "Partners",
+            "email": "karen.partners@momento.org"
+        }
+    },
+    {
+        "_id": 56,
+        "acao": "Login",
+        "data": {
+            "$date": "2024-06-17T14:08:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-09",
+        "detalhes": "Evento de demonstração 056",
+        "funcionario_id": 132,
+        "autor": {
+            "primeiro_nome": "Susan",
+            "sobrenome": "Mavris",
+            "email": "susan.mavris@momento.org"
+        }
+    },
+    {
+        "_id": 57,
+        "acao": "Consultou catálogo",
+        "data": {
+            "$date": "2024-06-20T15:21:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-10",
+        "detalhes": "Evento de demonstração 057",
+        "funcionario_id": 139,
+        "autor": {
+            "primeiro_nome": "Peter",
+            "sobrenome": "Parker",
+            "email": "peter.parker@momento.org"
+        }
+    },
+    {
+        "_id": 58,
+        "acao": "Exportou relatório",
+        "data": {
+            "$date": "2024-06-23T16:34:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-11",
+        "detalhes": "Evento de demonstração 058",
+        "funcionario_id": 146,
+        "autor": {
+            "primeiro_nome": "Kamala",
+            "sobrenome": "Khan",
+            "email": "kamala.khan@momento.org"
+        }
+    },
+    {
+        "_id": 59,
+        "acao": "Atualizou inventário",
+        "data": {
+            "$date": "2024-06-26T17:47:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-12",
+        "detalhes": "Evento de demonstração 059",
+        "funcionario_id": 153,
+        "autor": {
+            "primeiro_nome": "Arthur",
+            "sobrenome": "Curry",
+            "email": "arthur.curry@momento.org"
+        }
+    },
+    {
+        "_id": 60,
+        "acao": "Solicitou compra",
+        "data": {
+            "$date": "2024-06-29T08:00:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-01",
+        "detalhes": "Evento de demonstração 060",
+        "funcionario_id": 160,
+        "autor": {
+            "primeiro_nome": "Cyborg",
+            "sobrenome": "Stone",
+            "email": "cyborg.stone@momento.org"
+        }
+    },
+    {
+        "_id": 61,
+        "acao": "Revisou permissões",
+        "data": {
+            "$date": "2024-07-02T09:13:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-02",
+        "detalhes": "Evento de demonstração 061",
+        "funcionario_id": 167,
+        "autor": {
+            "primeiro_nome": "Camila",
+            "sobrenome": "Oliveira",
+            "email": "camila.oliveira@momento.org"
+        }
+    },
+    {
+        "_id": 62,
+        "acao": "Logout",
+        "data": {
+            "$date": "2024-07-05T10:26:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-03",
+        "detalhes": "Evento de demonstração 062",
+        "funcionario_id": 102,
+        "autor": {
+            "primeiro_nome": "Lex",
+            "sobrenome": "T.Challa",
+            "email": "lex.tchalla@momento.org"
+        }
+    },
+    {
+        "_id": 63,
+        "acao": "Falha de autenticação",
+        "data": {
+            "$date": "2024-07-08T11:39:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-04",
+        "detalhes": "Evento de demonstração 063",
+        "funcionario_id": 109,
+        "autor": {
+            "primeiro_nome": "Daniel",
+            "sobrenome": "Faviet",
+            "email": "daniel.faviet@momento.org"
+        }
+    },
+    {
+        "_id": 64,
+        "acao": "Login",
+        "data": {
+            "$date": "2024-07-11T12:52:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-05",
+        "detalhes": "Evento de demonstração 064",
+        "funcionario_id": 116,
+        "autor": {
+            "primeiro_nome": "Shelli",
+            "sobrenome": "Baida",
+            "email": "shelli.baida@momento.org"
+        }
+    },
+    {
+        "_id": 65,
+        "acao": "Consultou catálogo",
+        "data": {
+            "$date": "2024-07-14T13:05:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-06",
+        "detalhes": "Evento de demonstração 065",
+        "funcionario_id": 123,
+        "autor": {
+            "primeiro_nome": "Shanta",
+            "sobrenome": "Vollman",
+            "email": "shanta.vollman@momento.org"
+        }
+    },
+    {
+        "_id": 66,
+        "acao": "Exportou relatório",
+        "data": {
+            "$date": "2024-07-17T14:18:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-07",
+        "detalhes": "Evento de demonstração 066",
+        "funcionario_id": 130,
+        "autor": {
+            "primeiro_nome": "Elisabeth",
+            "sobrenome": "Braddock",
+            "email": "elisabeth.braddock@momento.org"
+        }
+    },
+    {
+        "_id": 67,
+        "acao": "Atualizou inventário",
+        "data": {
+            "$date": "2024-07-20T15:31:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-08",
+        "detalhes": "Evento de demonstração 067",
+        "funcionario_id": 137,
+        "autor": {
+            "primeiro_nome": "Sabrina",
+            "sobrenome": "Spellman",
+            "email": "sabrina.spellman@momento.org"
+        }
+    },
+    {
+        "_id": 68,
+        "acao": "Solicitou compra",
+        "data": {
+            "$date": "2024-07-23T16:44:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-09",
+        "detalhes": "Evento de demonstração 068",
+        "funcionario_id": 144,
+        "autor": {
+            "primeiro_nome": "Samus",
+            "sobrenome": "Aran",
+            "email": "samus.aran@momento.org"
+        }
+    },
+    {
+        "_id": 69,
+        "acao": "Revisou permissões",
+        "data": {
+            "$date": "2024-07-26T17:57:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-10",
+        "detalhes": "Evento de demonstração 069",
+        "funcionario_id": 151,
+        "autor": {
+            "primeiro_nome": "Kara",
+            "sobrenome": "Danvers",
+            "email": "kara.danvers@momento.org"
+        }
+    },
+    {
+        "_id": 70,
+        "acao": "Logout",
+        "data": {
+            "$date": "2024-07-29T08:10:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-11",
+        "detalhes": "Evento de demonstração 070",
+        "funcionario_id": 158,
+        "autor": {
+            "primeiro_nome": "Jean",
+            "sobrenome": "Grey",
+            "email": "jean.grey@momento.org"
+        }
+    },
+    {
+        "_id": 71,
+        "acao": "Falha de autenticação",
+        "data": {
+            "$date": "2024-08-01T09:23:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-12",
+        "detalhes": "Evento de demonstração 071",
+        "funcionario_id": 165,
+        "autor": {
+            "primeiro_nome": "Mateus",
+            "sobrenome": "Silva",
+            "email": "mateus.silva@momento.org"
+        }
+    },
+    {
+        "_id": 72,
+        "acao": "Login",
+        "data": {
+            "$date": "2024-08-04T10:36:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-01",
+        "detalhes": "Evento de demonstração 072",
+        "funcionario_id": 100,
+        "autor": {
+            "primeiro_nome": "Madeleine",
+            "sobrenome": "Prior",
+            "email": "madeleine.prior@momento.org"
+        }
+    },
+    {
+        "_id": 73,
+        "acao": "Consultou catálogo",
+        "data": {
+            "$date": "2024-08-07T11:49:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-02",
+        "detalhes": "Evento de demonstração 073",
+        "funcionario_id": 107,
+        "autor": {
+            "primeiro_nome": "Diana",
+            "sobrenome": "Lorentz",
+            "email": "diana.lorentz@momento.org"
+        }
+    },
+    {
+        "_id": 74,
+        "acao": "Exportou relatório",
+        "data": {
+            "$date": "2024-08-10T12:02:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-03",
+        "detalhes": "Evento de demonstração 074",
+        "funcionario_id": 114,
+        "autor": {
+            "primeiro_nome": "Den",
+            "sobrenome": "Raphaely",
+            "email": "den.raphaely@momento.org"
+        }
+    },
+    {
+        "_id": 75,
+        "acao": "Atualizou inventário",
+        "data": {
+            "$date": "2024-08-13T13:15:00.000Z"
+        },
+        "modulo_id": 3,
+        "modulo": "SUPRIMENTOS",
+        "status_id": 1,
+        "status": "REGISTRADO",
+        "origem": "Terminal-04",
+        "detalhes": "Evento de demonstração 075",
+        "funcionario_id": 121,
+        "autor": {
+            "primeiro_nome": "Adam",
+            "sobrenome": "Fripp",
+            "email": "adam.fripp@momento.org"
+        }
+    },
+    {
+        "_id": 76,
+        "acao": "Solicitou compra",
+        "data": {
+            "$date": "2024-08-16T14:28:00.000Z"
+        },
+        "modulo_id": 4,
+        "modulo": "SEGURANCA",
+        "status_id": 3,
+        "status": "FALHA",
+        "origem": "Terminal-05",
+        "detalhes": "Evento de demonstração 076",
+        "funcionario_id": 128,
+        "autor": {
+            "primeiro_nome": "Kimberly",
+            "sobrenome": "Grant",
+            "email": "kimberly.grant@momento.org"
+        }
+    },
+    {
+        "_id": 77,
+        "acao": "Revisou permissões",
+        "data": {
+            "$date": "2024-08-19T15:41:00.000Z"
+        },
+        "modulo_id": 5,
+        "modulo": "VENDAS",
+        "status_id": 4,
+        "status": "BLOQUEADO",
+        "origem": "Terminal-06",
+        "detalhes": "Evento de demonstração 077",
+        "funcionario_id": 135,
+        "autor": {
+            "primeiro_nome": "Susan",
+            "sobrenome": "Storm",
+            "email": "susan.storm@momento.org"
+        }
+    },
+    {
+        "_id": 78,
+        "acao": "Logout",
+        "data": {
+            "$date": "2024-08-22T16:54:00.000Z"
+        },
+        "modulo_id": 6,
+        "modulo": "AUTENTICACAO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-07",
+        "detalhes": "Evento de demonstração 078",
+        "funcionario_id": 142,
+        "autor": {
+            "primeiro_nome": "Leia",
+            "sobrenome": "Organa",
+            "email": "leia.organa@momento.org"
+        }
+    },
+    {
+        "_id": 79,
+        "acao": "Falha de autenticação",
+        "data": {
+            "$date": "2024-08-25T17:07:00.000Z"
+        },
+        "modulo_id": 1,
+        "modulo": "PRODUTOS",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-08",
+        "detalhes": "Evento de demonstração 079",
+        "funcionario_id": 149,
+        "autor": {
+            "primeiro_nome": "Clint",
+            "sobrenome": "Barton",
+            "email": "clint.barton@momento.org"
+        }
+    },
+    {
+        "_id": 80,
+        "acao": "Login",
+        "data": {
+            "$date": "2024-08-28T08:20:00.000Z"
+        },
+        "modulo_id": 2,
+        "modulo": "FINANCEIRO",
+        "status_id": 2,
+        "status": "SUCESSO",
+        "origem": "Terminal-09",
+        "detalhes": "Evento de demonstração 080",
+        "funcionario_id": 156,
+        "autor": {
+            "primeiro_nome": "Rogue",
+            "sobrenome": "LeBeau",
+            "email": "rogue.lebeau@momento.org"
+        }
+    }
+]
